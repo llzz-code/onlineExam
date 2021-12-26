@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>学生中心</title>
+    <link rel="stylesheet" , type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    {% block mycss %}
+
+    {% endblock %}
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<style>
+    body {
+        background: url("{% static 'images/bj.jpg' %}") no-repeat;
+        background-size: cover;
+        font-size: .16rem;
+        color: #ffffff;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <nav class="navbar navbar-default" role="navigation">
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" style="font-size: 15px">
+
+                        <li {% if request.path|slice:':14' == '/student/index' %}class="active"{% endif %}>
+                            <a href="{% url 'student:index' %}">考试信息</a>
+                        </li>
+                        <li {% if request.path|slice:':14' == '/student/query' %}class="active"{% endif %}>
+                            <a href="{% url 'student:query' %}">成绩查询</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li style="font-size: 15px"
+                            {% if request.path|slice:':15' == '/student/center' %}class="active"{% endif %}>
+                            <a href="{% url 'student:center' %}">个人中心</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+</div>
+{% block myjs %}
+
+{% endblock %}
+</body>
+</html>

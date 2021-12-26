@@ -1,0 +1,185 @@
+{% extends 'teacher/base.html' %}
+{% load staticfiles %}
+{% block mycss %}
+    <link href="{% static 'css/bootstrap-datetimepicker.min.css' %}" rel="stylesheet" media="screen">
+    <style>
+        #d1 {
+            position: relative;
+            display: block;
+            width: 200px;
+            margin: 50px auto;
+        }
+    </style>
+{% endblock %}
+{% block myjs %}
+    <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment-with-locales.js"></script>
+    <script src="{% static 'js/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap-datetimepicker.zh-CN.js' %}"></script>
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-2 column">
+                <p>
+                    {{ paper_name }}
+                </p>
+            </div>
+            <div class="col-md-2 column">
+                <div class="btn-group" style="display: flex;">
+                    <label for="name" style="font-size: 15px;font-weight: normal">考试时长</label>
+                    <select class="form-control" id="duration">
+                        <option value="4">60分钟</option>
+                        <option value="3">90分钟</option>
+                        <option value="2">100分钟</option>
+                        <option value="1">150分钟</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2 column">
+
+            </div>
+            <div class="col-md-4 column">
+                <div class="btn-group" style="display: flex;">
+                    <label for="name" style="font-size: 15px;font-weight: normal;margin-right: 10px">考试时间</label>
+                    <div class="controls input-append date time_new">
+                        <input size="16" type="text" value="" readonly class="form-control" id="time">
+                        <span class="add-on"><i class="icon-remove"></i></span>
+                        <span class="add-on"><i class="icon-th"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 column">
+                <button type="button" class="btn btn-default" id="create">创建</button>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>
+                            编号
+                        </th>
+                        <th>
+                            题目
+                        </th>
+                        <th>
+                            A
+                        </th>
+                        <th>
+                            B
+                        </th>
+                        <th>
+                            C
+                        </th>
+                        <th>
+                            D
+                        </th>
+                        <th>
+                            答案
+                        </th>
+                        <th>
+                            难度
+                        </th>
+                        <th>
+                            选择
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% if question_list %}
+                        {% for question in question_list %}
+                            <tr>
+                                <td>
+                                    {{ question.id }}
+                                </td>
+                                <td>
+                                    {{ question.title }}
+                                </td>
+                                <td>
+                                    {{ question.option_a }}
+                                </td>
+                                <td>
+                                    {{ question.option_b }}
+                                </td>
+                                <td>
+                                    {{ question.option_c }}
+                                </td>
+                                <td>
+                                    {{ question.option_d }}
+                                </td>
+                                <td>
+                                    {{ question.answer }}
+                                </td>
+                                <td>
+                                    {{ question.level }}
+                                </td>
+                                <td>
+                                    <input type="checkbox" value="{{ question.id }}">
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td>题库为空</td>
+                        </tr>
+                    {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+        $(function () {
+            $(".time_new").datetimepicker({
+                format: "yyyy-mm-dd hh:ii",
+                language: 'zh-CN',
+                weekStart: 1,
+                todayBtn: 1,
+                autoclose: 1,
+                todayHighlight: 1,
+                startView: 2,
+                forceParse: 0,
+                maxView: 4,
+            });
+            $("#create").click(function () {
+                let subject = "{{ subject }}";              // 考试科目
+                let time = $("#time").val();              // 考试时间
+                let duration = $("#duration").val();      // 考试时长
+                let paper_name = "{{ paper_name }}";      // 试卷名
+                let questions = [];                       // 选择的试题
+                $('input[type="checkbox"]:checked').each(function (index) {
+                    questions[index] = $(this).val();
+                })
+                console.log(questions);
+                if (time == "" || duration == "" || questions.length == 0) {
+                    alert("试卷信息不完整");
+                } else {
+                    $.ajax({
+                        type: "POST",
+                        url: "{% url 'teacher:create' %}",
+                        data: {
+                            'subject': subject,
+                            'paper_name': paper_name,
+                            'time': time,
+                            'duration': duration,
+                            'questions': questions,
+                            'csrfmiddlewaretoken': "{{ csrf_token }}",
+                        },
+                        dateType: "JSON",
+                        traditional: true,       // 支持数组
+                        success: function (callback) {
+                            if (callback.status == 'ok'){
+                                window.location.href = "{% url 'teacher:index' %}";
+                            }else{
+                                alert(callback.msg);
+                            }
+                        }
+                    })
+                }
+            })
+        });
+    </script>
+{% endblock %}

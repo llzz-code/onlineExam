@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ paper_info.title }}考试中</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/answerCard.css' %}">
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<div class="navbar navbar-default">
+    <div class="col-md-2 column">
+        <p style="height: 30px;line-height: 30px;font-size: 15px">
+            考试科目：{{ paper_info.title }}
+        </p>
+    </div>
+    <div class="col-md-2 column">
+        <p style="height: 30px;line-height: 30px;font-size: 15px">
+            考试时长:
+            <span id="time">{{ paper_info.duration }}</span>
+        </p>
+    </div>
+    <div class="col-md-5 column"></div>
+    <div class="col-md-1 column">
+        <button type="button" class="btn btn-link" id="submit">交卷</button>
+    </div>
+    <div class="col-md-2 column">
+        <p style="height: 30px;line-height: 30px;font-size: 15px">
+            {{ stu_info.name }}
+        </p>
+    </div>
+</div>
+<div class="row clearfix">
+    <div class="col-md-8 column">
+        <div class="panel panel-default customerList">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    单选题&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共{{ questions|length }}题
+                </h3>
+            </div>
+            {% for question in questions %}
+                <div class="panel-body" id="m{{ forloop.counter }}">
+                    <p>{{ forloop.counter }}{{ question.title }}</p>
+                    <ul style="list-style-type: none">
+                        <li>
+                            <label>
+                                <input type="radio" value="A" name="{{ question.id }}"
+                                       onchange="check({{ forloop.counter }}, 'A')" id="A">
+                                A.{{ question.option_a }}
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" value="B" name="{{ question.id }}"
+                                       onchange="check({{ forloop.counter }}, 'B')" id="B">
+                                B.{{ question.option_b }}
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" value="C" name="{{ question.id }}"
+                                       onchange="check({{ forloop.counter }}, 'C')" id="C">
+                                C.{{ question.option_c }}
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" value="D" name="{{ question.id }}"
+                                       onchange="check({{ forloop.counter }}, 'D')" id="D">
+                                D.{{ question.option_d }}
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+    <div class="col-md-4 column">
+        <div class="answer_card">
+            {% for question in questions %}
+                <div class="answer_no color2" id="{{ forloop.counter }}">
+                    <a href="#m{{ forloop.counter }}">{{ forloop.counter }}</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    obj = {}
+    $(function () {
+        if (checkStorage()){
+            getStorage_answer();
+        }
+        let time =  {{ paper_info.duration }};
+        let duration = 0;
+        let test_hour = {{ paper_info.time.hour }};
+        let test_min = {{ paper_info.time.minute }};
+        let myDate = new Date();
+        switch (time) {
+            case 1:
+                duration = 150;
+                break;
+            case 2:
+                duration = 100;
+                break;
+            case 3:
+                duration = 90;
+                break;
+            case 4:
+                duration = 60;
+                break;
+        }
+
+        // 考试结束时间
+        let hour = test_hour + Math.floor((test_min + duration) / 60);
+        let min = (test_min + duration - 60) % 60;
+        console.log(hour, min);
+        // 获取当前时间
+        let cur_hour = myDate.getHours();
+        let cur_min = myDate.getMinutes();
+        let cur_sec = myDate.getSeconds();
+        {#let cur_hour = 19;#}
+        {#let cur_min = 30;#}
+        console.log(cur_hour, cur_min);
+
+        //计算考试剩余时间
+        let test_duration = ((hour - cur_hour) * 60 + min - cur_min) * 60 - cur_sec;
+        console.log(test_duration);
+        TimeDown("show", test_duration * 1000);
+        //TimeDown("show", 3 * 1000);
+        $("#submit").click(function () {
+            let answer_list = [];
+            // 获取学生的答案
+            $('input[type="radio"]:checked').each(function (index) {
+                answer_list[index] = $(this).val();
+            })
+            if (answer_list.length < {{ questions|length }}) {
+                alert("请答完所有题");
+            } else {
+                send_ajax(answer_list);
+            }
+        });
+    });
+
+    /*
+     时间倒计时
+     TimeDown.js
+     */
+    function TimeDown(id, value) {
+
+        //倒计时的总秒数
+        let totalSeconds = parseInt(value / 1000);
+
+        //取模（余数）
+        let modulo = totalSeconds % (60 * 60 * 24);
+        //小时数
+        let hours = Math.floor(modulo / (60 * 60));
+        modulo = modulo % (60 * 60);
+        //分钟
+        let minutes = Math.floor(modulo / 60);
+        //秒
+        let seconds = modulo % 60;
+
+        hours = hours.toString().length == 1 ? '0' + hours : hours;
+        minutes = minutes.toString().length == 1 ? '0' + minutes : minutes;
+        seconds = seconds.toString().length == 1 ? '0' + seconds : seconds;
+        let time_str = hours + ":" + minutes + ":" + seconds;
+        //输出到页面
+        $("#time").html(time_str);
+
+        //延迟一秒执行自己
+        if (hours == "00" && minutes == "00" && parseInt(seconds) - 1 < 0) {
+            //考试时间结束
+            let answer_list = getStorage();
+            let answer_arr = new Array({{ questions|length }}).fill('');
+            for (let k in answer_list) {
+                answer_arr[k - 1] = answer_list[k];
+            }
+
+            send_ajax(answer_arr);
+            localStorage.clear();
+            alert("time_over");
+        } else {
+            setTimeout(function () {
+                TimeDown(id, value - 1000);
+            }, 1000)
+        }
+
+    }
+
+    function check(event, answer) {
+        let id = "#" + event;
+        obj[event.toString()] = answer;
+
+        localStorage.setItem('obj', JSON.stringify(obj));
+        $(id).attr("class", 'answer_no color1');
+    }
+
+    function getStorage() {
+        let answer_list = JSON.parse(localStorage.getItem('obj'));
+        return answer_list;
+    }
+
+    function send_ajax(answer_list) {
+        $.ajax({
+            type: "POST",
+            url: "{% url 'student:check' %}",
+            data: {
+                'answer': answer_list,
+                'paper_no': "{{ paper_info.paper_no }}",
+                'exam_id': "{{ exam_id }}",
+                'csrfmiddlewaretoken': "{{ csrf_token }}"
+            },
+            dateType: "JSON",
+            traditional: true,       // 支持数组
+            success: function (callback) {
+                if (callback.status == 'ok') {
+                    window.location.href = "{% url 'student:query' %}";
+                } else {
+                    alert(callback.msg);
+                }
+            }
+        })
+    }
+
+    function checkStorage() {
+        return JSON.stringify(localStorage) == "{}" ? false : true;
+    }
+
+    function getStorage_answer() {
+
+        let answer_list = getStorage();
+        for (let k in answer_list) {
+            let check = 'div#m' + k.toString() + '.panel-body>ul>li>label>input#' + answer_list[k];
+            $(check).click();
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,42 @@
+{% load i18n %}
+<div class="btn-group export">
+    <a class="dropdown-toggle btn btn-default btn-sm" data-toggle="dropdown" href="#">
+        导入 <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+        <li><a data-toggle="modal" data-target="#export-modal-import-excel">导入
+            Excel</a></li>
+    </ul>
+    <div id="export-modal-import-excel" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">导入 Excel</h4>
+                </div>
+                <form action="" method="POST" enctype=multipart/form-data>
+                    {% csrf_token %}
+                    <div class="modal-body">
+                        <input type="file" value="" name="excel" id="submit_upload" accept=".xls,.xlsx" onchange="checkFileType()">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">{% trans "Close" %}</button>
+                        <button class="btn btn-success" type="submit" id="submit_upload_b">
+                            导入
+                        </button>
+                    </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dalog -->
+    </div><!-- /.modal -->
+    <script>
+        function checkFileType() {
+            let file = $("#submit_upload").val().split("\\");
+            let suffix = file.pop().split(".")[1];
+            if (suffix != 'xls' && suffix != 'xlsx'){
+                alert("只支持xls和xlsx文件");
+                $("#submit_upload").val("");
+            }
+        }
+    </script>
+</div>

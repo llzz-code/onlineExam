@@ -1,0 +1,1577 @@
+[2021-06-28 10:18:33,510] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 10:18:33
+[2021-06-28 10:18:33,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 15420
+[2021-06-28 10:18:33,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2021-06-28 10:18:34,157] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:18:34,159] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:18:39,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 12996
+[2021-06-28 10:18:39,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2021-06-28 10:18:39,656] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:18:40,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 12996
+[2021-06-28 10:18:40,126] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:18:43,390] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41823
+[2021-06-28 10:18:43,475] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:18:53,468] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 10:18:53,473] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/ HTTP/1.1" 403 2508
+[2021-06-28 10:18:55,061] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41823
+[2021-06-28 10:22:10,343] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41823
+[2021-06-28 10:22:10,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:22:10,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:22:10,894] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:22:10,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:22:10,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:22:10,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:22:10,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:22:11,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:22:11,283] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:22:11,285] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:22:11,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:22:11,350] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:22:11,356] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:22:11,525] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:22:11,617] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:22:11,624] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:22:11,697] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:22:11,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:22:11,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:22:11,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:22:11,937] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:22:11,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:22:12,332] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:22:12,568] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:22:12,569] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:22:20,528] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 10:22:20,532] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/ HTTP/1.1" 403 2508
+[2021-06-28 10:22:25,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41823
+[2021-06-28 10:30:35,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42053
+[2021-06-28 10:30:35,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:31:44,986] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42055
+[2021-06-28 10:31:45,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:31:45,113] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:31:45,398] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:31:45,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:31:45,432] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:31:45,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:31:45,447] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:31:45,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:31:45,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:31:45,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:31:45,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:31:45,751] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:31:45,759] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:31:45,780] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:31:46,033] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:31:46,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:31:46,064] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:31:46,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:31:46,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:31:46,094] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:31:46,347] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:31:46,350] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:31:46,394] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:31:46,517] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:31:46,524] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:32:27,129] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42088
+[2021-06-28 10:32:27,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:32:27,219] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:32:27,548] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:32:27,548] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:32:27,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:32:27,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:32:27,551] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:32:27,554] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:32:27,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:32:27,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:32:27,885] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:32:27,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:32:27,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:32:27,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:32:28,199] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:32:28,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:32:28,237] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:32:28,253] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:32:28,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:32:28,267] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:32:28,514] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:32:28,573] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:32:28,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:32:28,631] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:32:28,633] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:32:54,362] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/paper/questionbank/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'xadmin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\templatetags\xadmin_tags.py", line 25, in view_block
+    result = block_func(context, nodes, *args, **kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\plugins\excel.py", line 13, in block_top_toolbar
+    nodes.append(loader.render_to_string('xadmin/excel/model_list.top_toolbar.import.html'))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'xadmin' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+staticfiles
+tz
+xadmin_tags
+[2021-06-28 10:32:55,057] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /admin/paper/questionbank/ HTTP/1.1" 500 425245
+[2021-06-28 10:32:55,718] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:32:55,719] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:33:07,892] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/paper/questionbank/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 475, in parse
+    compile_func = self.tags[command]
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\templatetags\xadmin_tags.py", line 25, in view_block
+    result = block_func(context, nodes, *args, **kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\plugins\excel.py", line 13, in block_top_toolbar
+    nodes.append(loader.render_to_string('xadmin/excel/model_list.top_toolbar.import.html'))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 477, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 539, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'trans'. Did you forget to register or load this tag?
+[2021-06-28 10:33:08,112] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /admin/paper/questionbank/ HTTP/1.1" 500 419834
+[2021-06-28 10:33:09,162] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:33:09,163] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:33:17,785] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42088
+[2021-06-28 10:33:17,865] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:33:17,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:33:18,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:33:18,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:33:18,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:33:18,269] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:33:18,275] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:33:18,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:33:18,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:33:18,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:33:18,583] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:33:18,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:33:18,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:33:18,639] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:33:18,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:33:18,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:33:18,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:33:18,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:33:18,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:33:18,971] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:33:19,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:33:19,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:33:19,249] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:33:19,423] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:33:19,425] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:33:25,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42088
+[2021-06-28 10:33:25,799] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:33:25,923] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:33:26,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:33:26,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:33:26,118] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:33:26,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:33:26,122] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:33:26,242] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:33:26,438] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:33:26,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:33:26,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:33:26,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:33:26,442] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:33:26,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:33:26,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:33:26,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:33:26,782] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:33:26,783] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:33:26,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:33:26,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:33:27,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:33:27,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:33:27,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:33:27,252] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:33:27,258] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:33:59,362] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42022
+[2021-06-28 10:33:59,417] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:33:59,546] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:33:59,753] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:33:59,760] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:33:59,761] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:33:59,762] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:33:59,780] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:33:59,874] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:34:00,074] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:34:00,074] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:34:00,087] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:34:00,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:34:00,095] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:34:00,199] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:34:00,392] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:34:00,408] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:34:00,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:34:00,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:34:00,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:34:00,520] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:34:00,715] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:34:00,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:34:00,740] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:34:00,820] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:34:00,824] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:34:09,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42022
+[2021-06-28 10:34:09,825] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:34:09,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:34:10,133] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:34:10,134] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:34:10,138] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:34:10,139] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:34:10,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:34:10,212] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:34:10,463] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:34:10,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:34:10,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:34:10,478] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:34:10,478] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:34:10,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:34:10,788] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:34:10,789] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:34:10,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:34:10,804] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:34:10,814] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:34:10,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:34:11,117] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:34:11,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:34:11,121] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:34:21,662] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 10:34:21,674] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/ HTTP/1.1" 403 2508
+[2021-06-28 10:34:48,805] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 10:34:48,809] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/ HTTP/1.1" 403 2508
+[2021-06-28 10:34:48,863] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:34:48,865] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:34:50,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42022
+[2021-06-28 10:34:50,745] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:34:50,923] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:34:50,928] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:34:50,928] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:34:50,943] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:34:50,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:34:51,066] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:34:51,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:34:51,262] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:34:51,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:34:51,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:34:51,284] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:34:51,378] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:34:51,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:34:51,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:34:51,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:34:51,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:34:51,602] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:34:51,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:34:51,927] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:34:51,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:34:51,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:34:52,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:42:53,975] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 42034
+[2021-06-28 10:42:54,087] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:42:54,090] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:42:54,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:42:54,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:42:54,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:42:54,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:42:54,422] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:42:54,437] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:42:54,737] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:42:54,740] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:42:54,756] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:42:54,759] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:42:54,763] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:42:54,770] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:42:55,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:42:55,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:42:55,072] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:42:55,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:42:55,086] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:42:55,109] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:42:55,366] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:42:55,373] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:42:55,383] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:42:55,762] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:42:55,764] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:43:25,417] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41981
+[2021-06-28 10:43:25,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:43:25,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:43:25,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:43:25,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:43:25,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:43:25,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:43:25,918] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:43:25,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:43:26,231] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:43:26,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:43:26,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:43:26,241] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:43:26,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:43:26,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:43:26,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:43:26,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:43:26,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:43:26,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:43:26,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:43:26,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:43:27,201] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:43:27,201] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:43:27,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:43:27,661] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:43:27,662] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:45:19,991] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41179
+[2021-06-28 10:45:20,062] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:45:20,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:45:20,397] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:45:20,406] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:45:20,413] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:45:20,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:45:20,446] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:45:20,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:45:20,748] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:45:20,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:45:20,762] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:45:20,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:45:20,804] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:45:20,941] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:45:21,080] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:45:21,088] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:45:21,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:45:21,128] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:45:21,131] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:45:21,274] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:45:21,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:45:21,435] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:45:21,437] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:45:21,715] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:45:21,722] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:45:36,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=test.xlsx HTTP/1.1" 200 41926
+[2021-06-28 10:45:36,994] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:45:37,110] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:45:37,313] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:45:37,314] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:45:37,317] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:45:37,318] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:45:37,340] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:45:37,441] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:45:37,645] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:45:37,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:45:37,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:45:37,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:45:37,663] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:45:37,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:45:37,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:45:37,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:45:37,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:45:37,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:45:37,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:45:38,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:45:38,278] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:45:38,286] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:45:38,294] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:47:07,483] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=test.xlsx HTTP/1.1" 200 41928
+[2021-06-28 10:47:07,539] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:47:07,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:47:07,846] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:47:07,856] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:47:07,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:47:07,862] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:47:07,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:47:07,989] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:47:08,174] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:47:08,191] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:47:08,197] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:47:08,211] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:47:08,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:47:08,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:47:08,501] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:47:08,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:47:08,528] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:47:08,536] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:47:08,543] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:47:08,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:47:08,823] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:47:08,857] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:47:08,859] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:47:08,999] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:47:09,000] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:49:24,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=test.xlsx HTTP/1.1" 200 42103
+[2021-06-28 10:49:24,860] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:49:24,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:49:25,169] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:49:25,178] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:49:25,185] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:49:25,186] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:49:25,211] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:49:25,222] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:49:25,499] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:49:25,520] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:49:25,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:49:25,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:49:25,567] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:49:25,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 10:49:25,837] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:49:25,845] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:49:25,882] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:49:25,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:49:25,912] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:49:25,912] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:49:26,145] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:49:26,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:49:26,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:49:26,541] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 10:49:26,585] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 10:49:41,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42103
+[2021-06-28 10:49:42,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 10:49:42,097] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 10:49:42,335] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 10:49:42,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 10:49:42,338] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 10:49:42,338] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 10:49:42,351] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 10:49:42,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 10:49:42,668] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 10:49:42,668] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 10:49:42,670] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 10:49:42,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 10:49:42,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 10:49:42,741] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 10:49:42,994] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 10:49:43,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 10:49:43,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 10:49:43,031] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 10:49:43,034] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 10:49:43,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 10:49:43,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 10:49:43,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 10:49:43,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 11:01:19,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42352
+[2021-06-28 11:01:19,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 11:01:19,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 11:01:19,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 11:01:19,898] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 11:01:19,898] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 11:01:19,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 11:01:19,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 11:01:19,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 11:01:20,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 11:01:20,247] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 11:01:20,249] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 11:01:20,256] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 11:01:20,258] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 11:01:20,259] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 11:01:20,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 11:01:20,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 11:01:20,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 11:01:20,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 11:01:20,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 11:01:20,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 11:01:20,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 11:01:20,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 11:01:20,941] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 11:01:28,837] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 11:01:28,842] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 403 2508
+[2021-06-28 11:04:28,407] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42352
+[2021-06-28 11:04:28,621] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 11:04:28,640] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 11:04:28,941] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 11:04:28,943] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 11:04:28,943] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 11:04:28,952] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 11:04:28,979] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 11:04:28,998] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 11:04:29,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 11:04:29,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 11:04:29,266] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 11:04:29,285] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 11:04:29,311] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 11:04:29,312] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 11:04:29,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 11:04:29,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 11:04:29,607] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 11:04:29,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 11:04:29,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 11:04:29,664] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 11:04:29,940] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 11:04:29,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 11:04:29,962] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 11:04:38,038] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 11:04:38,045] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 403 2508
+[2021-06-28 11:07:33,420] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42352
+[2021-06-28 11:07:33,763] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 11:07:33,782] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 11:07:34,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 11:07:34,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 11:07:34,218] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 11:07:34,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 11:07:34,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 11:07:34,257] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 11:07:34,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 11:07:34,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 11:07:34,567] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 11:07:34,604] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 11:07:34,624] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 11:07:34,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 11:07:34,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 11:07:34,929] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 11:07:34,938] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 11:07:35,080] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 11:07:35,080] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 11:07:35,185] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 11:07:35,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 11:07:35,284] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 11:07:35,287] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 11:07:43,341] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 11:07:43,346] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 403 2508
+[2021-06-28 14:42:51,765] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42352
+[2021-06-28 14:42:52,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 14:45:25,514] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42352
+[2021-06-28 14:45:25,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 14:45:35,707] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 14:45:35,712] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 403 2508
+[2021-06-28 14:46:29,268] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42352
+[2021-06-28 14:46:29,331] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 14:46:37,028] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/paper/questionbank/
+[2021-06-28 14:46:37,033] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 403 2508
+[2021-06-28 15:02:57,003] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 41818
+[2021-06-28 15:02:57,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:03:05,700] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 41818
+[2021-06-28 15:03:05,766] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:07:02,098] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42156
+[2021-06-28 15:07:02,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 15:07:02,307] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 15:07:02,621] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 15:07:02,645] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 15:07:02,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 15:07:02,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 15:07:02,718] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 15:07:02,918] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 15:07:03,064] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 15:07:03,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 15:07:03,142] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 15:07:03,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 15:07:03,166] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 15:07:03,301] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 15:07:03,419] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:07:03,448] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 15:07:03,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 15:07:03,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 15:07:03,515] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 15:07:03,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 15:07:03,759] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 15:07:03,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 15:07:03,875] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 15:12:22,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42158
+[2021-06-28 15:12:22,490] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 15:12:22,496] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 15:12:22,814] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 15:12:22,814] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 15:12:22,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 15:12:22,820] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 15:12:22,820] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 15:12:22,827] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 15:12:23,139] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 15:12:23,140] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 15:12:23,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 15:12:23,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 15:12:23,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 15:12:23,173] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 15:12:23,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 15:12:23,468] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 15:12:23,475] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 15:12:23,491] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:12:23,502] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 15:12:23,512] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 15:12:23,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 15:12:23,811] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 15:12:23,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 15:13:09,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42168
+[2021-06-28 15:13:09,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 15:13:09,628] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 15:13:09,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 15:13:09,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 15:13:09,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-28 15:13:09,922] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 15:13:09,923] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 15:13:09,944] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 15:13:10,254] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 15:13:10,262] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 15:13:10,271] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:13:10,274] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 15:13:10,275] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 15:13:10,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 15:13:10,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 15:13:10,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 15:13:10,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-28 15:13:10,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-28 15:13:10,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-28 15:13:10,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-28 15:13:10,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-28 15:13:10,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 15:13:10,916] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-28 15:13:11,135] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 15:13:11,150] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 15:15:20,551] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/?excel=token.txt HTTP/1.1" 200 42168
+[2021-06-28 15:15:20,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:27:04,638] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41421
+[2021-06-28 15:27:05,066] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:27:16,083] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?_do_=export&export_type=xls&export_xls_header=on&all=on HTTP/1.1" 200 5632
+[2021-06-28 15:28:17,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29821
+[2021-06-28 15:28:17,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:29:02,986] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41421
+[2021-06-28 15:29:03,063] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:29:51,704] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41424
+[2021-06-28 15:29:51,850] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:30:00,336] [adminx.py:40] [adminx:post] [ERROR]- 导入试题错误type object 'QuestionBank' has no attribute 'get_or_create'
+[2021-06-28 15:30:00,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 41424
+[2021-06-28 15:30:00,497] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:30:43,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 47985
+[2021-06-28 15:30:43,396] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:31:05,526] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/7/update/ HTTP/1.1" 200 19719
+[2021-06-28 15:31:05,609] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:31:12,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/7/update/ HTTP/1.1" 302 0
+[2021-06-28 15:31:12,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 48259
+[2021-06-28 15:31:12,910] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:32:39,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 13703
+[2021-06-28 15:32:39,238] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:32:40,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 302 0
+[2021-06-28 15:32:40,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41653
+[2021-06-28 15:32:41,095] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:32:44,155] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41424
+[2021-06-28 15:32:44,377] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:32:51,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 47990
+[2021-06-28 15:32:51,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:34:21,809] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 13705
+[2021-06-28 15:34:21,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:34:23,188] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 302 0
+[2021-06-28 15:34:23,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41653
+[2021-06-28 15:34:23,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:34:31,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 48000
+[2021-06-28 15:34:31,417] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:35:02,669] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 13709
+[2021-06-28 15:35:02,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:35:03,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 302 0
+[2021-06-28 15:35:03,934] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 41653
+[2021-06-28 15:35:04,290] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:35:15,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 48009
+[2021-06-28 15:35:15,679] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 15:45:03,986] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29821
+[2021-06-28 15:45:04,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 16:51:16,766] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29821
+[2021-06-28 16:51:17,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 16:52:00,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 48009
+[2021-06-28 16:52:00,436] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 16:52:13,758] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 61772
+[2021-06-28 16:52:13,809] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:00:36,046] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 81511
+[2021-06-28 17:00:36,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:01:36,519] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29821
+[2021-06-28 17:01:36,585] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:01:42,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/3/update/ HTTP/1.1" 200 15130
+[2021-06-28 17:01:42,117] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:01:53,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29821
+[2021-06-28 17:01:53,650] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:02:15,474] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 81511
+[2021-06-28 17:02:15,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:02:23,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 97262
+[2021-06-28 17:02:23,656] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:03:23,204] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29821
+[2021-06-28 17:03:23,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:03:25,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/4/update/ HTTP/1.1" 200 15142
+[2021-06-28 17:03:25,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:03:37,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/subject/4/update/ HTTP/1.1" 302 0
+[2021-06-28 17:03:38,117] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 30065
+[2021-06-28 17:03:38,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:03:42,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 97298
+[2021-06-28 17:03:42,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:04:28,206] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 117466
+[2021-06-28 17:04:28,268] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:01,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 15448
+[2021-06-28 17:05:01,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:03,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 302 0
+[2021-06-28 17:05:03,827] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 95206
+[2021-06-28 17:05:04,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:06,526] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29827
+[2021-06-28 17:05:06,765] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:30,248] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 94976
+[2021-06-28 17:05:30,296] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:38,046] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 115306
+[2021-06-28 17:05:38,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:50,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 29827
+[2021-06-28 17:05:50,520] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:53,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/subject/ HTTP/1.1" 200 13287
+[2021-06-28 17:05:54,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:05:55,368] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/subject/ HTTP/1.1" 302 0
+[2021-06-28 17:05:55,450] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/subject/ HTTP/1.1" 200 28699
+[2021-06-28 17:05:55,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:06:27,911] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 115306
+[2021-06-28 17:06:27,968] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:06:35,060] [adminx.py:40] [adminx:post] [ERROR]- 导入试题错误(1406, "Data too long for column 'answer' at row 1")
+[2021-06-28 17:06:35,346] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 124468
+[2021-06-28 17:06:35,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:06:40,094] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/createpaper/ HTTP/1.1" 200 31900
+[2021-06-28 17:06:40,162] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:06:48,172] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 38116
+[2021-06-28 17:06:48,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:06:51,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/add/ HTTP/1.1" 200 19458
+[2021-06-28 17:06:51,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:07:20,443] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/paper/add/ HTTP/1.1" 302 0
+[2021-06-28 17:07:20,545] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 41015
+[2021-06-28 17:07:20,684] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:07:25,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/createpaper/add/?_rel_paper_no__id__exact=12 HTTP/1.1" 200 20830
+[2021-06-28 17:07:25,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:07:36,894] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 40704
+[2021-06-28 17:07:41,071] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/paper/ HTTP/1.1" 200 13297
+[2021-06-28 17:07:41,129] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:07:42,571] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/paper/ HTTP/1.1" 302 0
+[2021-06-28 17:07:42,950] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 38339
+[2021-06-28 17:07:43,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 17:07:47,318] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3674
+[2021-06-28 17:07:47,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 304 0
+[2021-06-28 17:07:47,690] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 304 0
+[2021-06-28 17:07:47,723] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 304 0
+[2021-06-28 17:07:48,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 304 0
+[2021-06-28 17:07:48,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 304 0
+[2021-06-28 17:07:48,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 304 0
+[2021-06-28 17:07:48,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 304 0
+[2021-06-28 17:07:48,112] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 304 0
+[2021-06-28 17:07:53,407] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-28 17:07:53,669] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:07:53
+[2021-06-28 17:07:53,927] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 15325
+[2021-06-28 17:07:53,988] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2021-06-28 17:08:06,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/create/?paper_name=%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8&subject=4 HTTP/1.1" 200 39021
+[2021-06-28 17:08:39,622] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/create/ HTTP/1.1" 200 29
+[2021-06-28 17:08:39,781] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:08:39
+[2021-06-28 17:08:39,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 15973
+[2021-06-28 17:09:00,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/file/ HTTP/1.1" 200 27
+[2021-06-28 17:09:00,725] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:09:00
+[2021-06-28 17:09:00,743] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 15973
+[2021-06-28 17:09:06,853] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210628/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+AttributeError: type object 'CreatePaper' has no attribute 'objects'
+[2021-06-28 17:09:06,976] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210628/ HTTP/1.1" 500 20226
+[2021-06-28 17:09:16,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 85056
+[2021-06-28 17:09:16,613] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 304 0
+[2021-06-28 17:09:16,861] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210621/ HTTP/1.1" 200 5059
+[2021-06-28 17:09:17,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210621/ HTTP/1.1" 200 2932
+[2021-06-28 17:09:18,292] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80897
+[2021-06-28 17:09:18,407] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4173
+[2021-06-28 17:09:18,420] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 17:09:24,677] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:09:24
+[2021-06-28 17:09:24,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 15973
+[2021-06-28 17:10:44,934] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:10:44
+[2021-06-28 17:10:44,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14681
+[2021-06-28 17:10:45,368] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 17:10:45,477] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 17:10:45,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 17:10:46,013] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 17:10:46,013] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 17:11:41,470] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:11:41
+[2021-06-28 17:11:41,495] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 15973
+[2021-06-28 17:11:41,556] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 17:11:41,697] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 17:11:41,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 17:11:41,965] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 17:11:41,966] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 17:11:42,841] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210621/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+AttributeError: type object 'CreatePaper' has no attribute 'objects'
+[2021-06-28 17:11:42,903] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210621/ HTTP/1.1" 500 20226
+[2021-06-28 17:12:27,339] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:12:27
+[2021-06-28 17:12:27,359] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 16105
+[2021-06-28 17:12:27,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 17:12:27,609] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 17:12:27,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 17:12:27,835] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 17:12:27,836] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 17:12:29,033] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210621/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+AttributeError: type object 'CreatePaper' has no attribute 'objects'
+[2021-06-28 17:12:29,065] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210621/ HTTP/1.1" 500 20226
+[2021-06-28 17:12:37,117] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 85056
+[2021-06-28 17:12:37,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210621/ HTTP/1.1" 200 5059
+[2021-06-28 17:12:37,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210621/ HTTP/1.1" 200 2932
+[2021-06-28 17:12:42,843] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 17:12:42
+[2021-06-28 17:12:42,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 16325
+[2021-06-28 17:12:43,991] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210621/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+AttributeError: type object 'CreatePaper' has no attribute 'objects'
+[2021-06-28 17:12:44,026] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210621/ HTTP/1.1" 500 20226
+[2021-06-28 20:41:32,326] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2021-06-28 20:44:44,989] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:44:44
+[2021-06-28 20:44:45,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14741
+[2021-06-28 20:44:51,944] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-28 20:45:32,640] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:45:32
+[2021-06-28 20:45:32,663] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14810
+[2021-06-28 20:45:32,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:45:32,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:45:33,074] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:45:33,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-28 20:45:43,875] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:45:43
+[2021-06-28 20:45:43,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 16325
+[2021-06-28 20:45:43,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:45:44,127] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:45:44,283] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:45:44,456] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-28 20:45:45,279] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210621/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+AttributeError: type object 'CreatePaper' has no attribute 'objects'
+[2021-06-28 20:45:45,358] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210621/ HTTP/1.1" 500 20283
+[2021-06-28 20:45:51,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 85056
+[2021-06-28 20:45:51,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210621/ HTTP/1.1" 200 5059
+[2021-06-28 20:45:51,298] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210621/ HTTP/1.1" 200 2932
+[2021-06-28 20:45:57,548] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:45:57
+[2021-06-28 20:45:57,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 16325
+[2021-06-28 20:45:59,027] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210628/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+AttributeError: type object 'CreatePaper' has no attribute 'objects'
+[2021-06-28 20:45:59,054] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210628/ HTTP/1.1" 500 20226
+[2021-06-28 20:47:24,129] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:47:24
+[2021-06-28 20:47:24,544] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 16325
+[2021-06-28 20:47:25,516] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/paper/20210621/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 46, in paper
+    paper = CreatePaper.objects.filter(paper_no__paper_no=paper_no).all()
+NameError: name 'CreatePaper' is not defined
+[2021-06-28 20:47:25,551] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/paper/20210621/ HTTP/1.1" 500 20177
+[2021-06-28 20:48:17,512] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:48:17
+[2021-06-28 20:48:17,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 16325
+[2021-06-28 20:48:18,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210621/ HTTP/1.1" 200 3533
+[2021-06-28 20:52:05,570] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:52:05
+[2021-06-28 20:52:05,640] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    return render(request, 'teacher/index.html', locals())
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'paper' with arguments '('',)' not found. 1 pattern(s) tried: ['teacher\\/paper/(\\d+)/$']
+[2021-06-28 20:52:06,101] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 190337
+[2021-06-28 20:52:07,409] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 20:52:07,411] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 20:52:53,591] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:52:53
+[2021-06-28 20:52:53,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14763
+[2021-06-28 20:53:33,690] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:53:33
+[2021-06-28 20:53:33,704] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14813
+[2021-06-28 20:53:33,763] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:53:33,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:53:34,059] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:53:34,143] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 20:53:34,144] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 20:53:35,769] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210621 HTTP/1.1" 301 0
+[2021-06-28 20:53:35,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210621/ HTTP/1.1" 200 3533
+[2021-06-28 20:54:20,926] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:54:20
+[2021-06-28 20:54:20,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14813
+[2021-06-28 20:54:20,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:54:21,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:54:21,297] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:54:21,490] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 20:54:21,491] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 20:54:22,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210621/ HTTP/1.1" 200 15961
+[2021-06-28 20:54:28,510] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:54:28
+[2021-06-28 20:54:28,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14813
+[2021-06-28 20:54:29,424] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210628 HTTP/1.1" 301 0
+[2021-06-28 20:54:29,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210628/ HTTP/1.1" 200 27353
+[2021-06-28 20:54:40,676] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-28 20:54:52,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 40703
+[2021-06-28 20:54:53,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 20:55:22,423] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210628/ HTTP/1.1" 200 27354
+[2021-06-28 20:55:26,862] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:55:26
+[2021-06-28 20:55:26,874] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14814
+[2021-06-28 20:55:28,312] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:55:28
+[2021-06-28 20:55:28,324] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14814
+[2021-06-28 20:55:48,710] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:55:48
+[2021-06-28 20:55:48,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14814
+[2021-06-28 20:55:48,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:55:48,950] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:55:49,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:55:49,228] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 20:55:49,229] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 20:55:51,019] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210628/ HTTP/1.1" 200 26940
+[2021-06-28 20:56:19,152] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210628/ HTTP/1.1" 200 26956
+[2021-06-28 20:56:19,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:56:19,382] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:56:19,512] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:56:19,640] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 20:56:19,644] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 20:56:32,387] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:56:32
+[2021-06-28 20:56:32,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14814
+[2021-06-28 20:56:33,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210626 HTTP/1.1" 301 0
+[2021-06-28 20:56:33,548] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210626/ HTTP/1.1" 200 13766
+[2021-06-28 20:56:35,583] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:56:35
+[2021-06-28 20:56:35,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14814
+[2021-06-28 20:56:36,452] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210621/ HTTP/1.1" 200 15552
+[2021-06-28 20:56:38,878] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:56:38
+[2021-06-28 20:56:38,894] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14814
+[2021-06-28 20:58:42,414] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:58:42
+[2021-06-28 20:58:42,441] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/?keyword=2021 HTTP/1.1" 200 14814
+[2021-06-28 20:59:26,455] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:59:26
+[2021-06-28 20:59:26,479] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/?keyword=2021 HTTP/1.1" 200 14801
+[2021-06-28 20:59:26,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 20:59:26,709] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 20:59:26,856] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 20:59:26,976] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 20:59:26,983] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 20:59:30,773] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:59:30
+[2021-06-28 20:59:30,783] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/?keyword=20210619 HTTP/1.1" 200 13040
+[2021-06-28 20:59:39,991] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 20:59:39
+[2021-06-28 20:59:40,001] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/?keyword=20210628 HTTP/1.1" 200 13643
+[2021-06-28 20:59:41,932] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/paper/20210628/ HTTP/1.1" 200 26943
+[2021-06-28 21:00:01,326] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 21:00:01
+[2021-06-28 21:00:01,339] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14801
+[2021-06-28 21:00:02,930] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 85044
+[2021-06-28 21:00:03,235] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210621/ HTTP/1.1" 200 5059
+[2021-06-28 21:00:03,420] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210621/ HTTP/1.1" 200 2932
+[2021-06-28 21:00:05,071] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80885
+[2021-06-28 21:00:05,259] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4173
+[2021-06-28 21:00:05,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:00:13,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 109601
+[2021-06-28 21:00:13,342] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:00:27,822] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3674
+[2021-06-28 21:00:39,922] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-28 21:00:46,681] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-28 21:00:54,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-28 21:00:54,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2751
+[2021-06-28 21:00:57,106] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/176/ HTTP/1.1" 200 27780
+[2021-06-28 21:01:51,645] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /student/check/ HTTP/1.1" 200 32
+[2021-06-28 21:01:51,914] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/query/ HTTP/1.1" 200 2578
+[2021-06-28 21:01:59,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80851
+[2021-06-28 21:01:59,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:01:59,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:02:42,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80437
+[2021-06-28 21:02:42,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 21:02:43,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 21:02:43,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:02:43,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 200 1291532
+[2021-06-28 21:02:43,710] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:02:44,021] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:02:45,025] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:02:45,026] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:04:03,894] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80470
+[2021-06-28 21:04:03,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 21:04:04,034] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 21:04:04,267] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:04:04,283] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 200 1291532
+[2021-06-28 21:04:04,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:04:04,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:04:05,557] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:04:05,559] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:04:19,596] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80476
+[2021-06-28 21:04:19,652] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 21:04:19,737] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:04:19,967] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 21:04:19,980] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 200 1291532
+[2021-06-28 21:04:20,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:04:20,456] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:04:21,379] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:04:21,380] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:04:37,183] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80493
+[2021-06-28 21:04:37,323] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:04:37,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:05:13,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80550
+[2021-06-28 21:05:14,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 21:05:14,058] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 21:05:14,321] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:05:14,382] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 200 1291532
+[2021-06-28 21:05:14,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:05:14,598] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:05:15,755] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:05:15,756] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:05:26,386] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-28 21:06:41,851] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/?paper_id=20210628 HTTP/1.1" 200 80548
+[2021-06-28 21:06:41,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-28 21:06:41,977] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-28 21:06:42,276] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:06:42,288] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 200 1291532
+[2021-06-28 21:06:42,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-28 21:06:42,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210628/ HTTP/1.1" 200 4238
+[2021-06-28 21:06:43,034] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210628/ HTTP/1.1" 200 2931
+[2021-06-28 21:06:43,962] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:06:43,967] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:06:53,893] [views.py:39] [views:get] [INFO]- 郭政权请求教师主页------2021-06-28 21:06:53
+[2021-06-28 21:06:53,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14804
+[2021-06-28 21:06:56,009] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 84744
+[2021-06-28 21:06:56,211] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210621/ HTTP/1.1" 200 5059
+[2021-06-28 21:06:56,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210621/ HTTP/1.1" 200 2932
+[2021-06-28 21:07:02,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7123
+[2021-06-28 21:07:07,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-28 21:07:07,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3674
+[2021-06-28 21:07:10,385] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 302 0
+[2021-06-28 21:07:10,690] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3674
+[2021-06-28 21:07:19,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 4175
+[2021-06-28 21:07:20,069] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 21:15:32,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3674
+[2021-06-28 21:15:43,856] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/login/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 44, in post
+    login(request, teacher)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\__init__.py", line 160, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in send
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\db\models\base.py", line 715, in save
+    % ', '.join(non_model_fields))
+ValueError: The following fields do not exist in this model or are m2m fields: last_login
+[2021-06-28 21:15:44,877] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /login/login/ HTTP/1.1" 500 21069
+[2021-06-28 21:15:45,833] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-28 21:15:45,852] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-28 21:16:21,505] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-28 21:16:21,509] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-28 21:16:43,248] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3674
+[2021-06-28 21:16:43,319] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-28 21:16:43,512] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:16:43,664] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-28 21:16:43,917] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-28 21:16:43,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-28 21:16:43,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-28 21:16:43,949] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-28 21:16:43,963] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-28 21:16:43,993] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:16:43,995] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:16:45,492] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3674
+[2021-06-28 21:16:45,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 4175
+[2021-06-28 21:16:45,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-28 21:16:45,900] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:16:45,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-28 21:16:46,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-28 21:16:46,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-28 21:16:46,280] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-28 21:16:46,286] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-28 21:16:46,341] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-28 21:16:46,352] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-28 21:16:46,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 21:16:46,608] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-28 21:16:46,612] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-28 21:16:46,619] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-28 21:16:46,670] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-28 21:16:46,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-28 21:16:46,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-28 21:16:46,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-28 21:16:46,934] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-28 21:16:46,936] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-28 21:16:47,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-28 21:16:47,035] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-28 21:16:47,258] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-28 21:16:47,259] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-28 21:16:47,262] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-28 21:16:47,285] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:16:47,285] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:16:47,349] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-28 21:16:47,350] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-28 21:16:52,329] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 302 0
+[2021-06-28 21:16:52,663] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 109601
+[2021-06-28 21:16:52,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:17:01,047] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-28 21:17:01,050] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-28 21:17:40,989] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3674
+[2021-06-28 21:17:45,798] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/login/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 44, in post
+    login(request, teacher)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\__init__.py", line 160, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in send
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\db\models\base.py", line 715, in save
+    % ', '.join(non_model_fields))
+ValueError: The following fields do not exist in this model or are m2m fields: last_login
+[2021-06-28 21:17:46,289] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /login/login/ HTTP/1.1" 500 21368
+[2021-06-28 21:17:55,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3674
+[2021-06-28 21:18:00,669] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/login/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 44, in post
+    login(request, teacher)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\__init__.py", line 160, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in send
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\db\models\base.py", line 715, in save
+    % ', '.join(non_model_fields))
+ValueError: The following fields do not exist in this model or are m2m fields: last_login
+[2021-06-28 21:18:00,728] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /login/login/ HTTP/1.1" 500 21356
+[2021-06-28 21:18:02,400] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-28 21:18:02,416] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-28 21:18:41,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3674
+[2021-06-28 21:18:47,641] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/login/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 44, in post
+    login(request, teacher)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\__init__.py", line 160, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in send
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\dispatch\dispatcher.py", line 178, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\db\models\base.py", line 715, in save
+    % ', '.join(non_model_fields))
+ValueError: The following fields do not exist in this model or are m2m fields: last_login
+[2021-06-28 21:18:48,157] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /login/login/ HTTP/1.1" 500 21356
+[2021-06-28 21:21:27,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3674
+[2021-06-28 21:21:37,348] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-28 21:21:37,626] [views.py:39] [views:get] [INFO]- 张三请求教师主页------2021-06-28 21:21:37
+[2021-06-28 21:21:38,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 14800
+[2021-06-28 21:25:18,916] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/?_do_=export&export_type=xls&export_xls_header=on&all=on HTTP/1.1" 200 17920
+[2021-06-28 21:25:25,775] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 40703
+[2021-06-28 21:25:25,842] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:25:27,874] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 124468
+[2021-06-28 21:25:27,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:25:34,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/?_do_=export&export_type=xls&export_xls_header=on&all=on HTTP/1.1" 200 17920
+[2021-06-28 21:44:03,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 4178
+[2021-06-28 21:44:03,835] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 21:44:09,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 302 0
+[2021-06-28 21:44:10,045] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 25330
+[2021-06-28 21:44:10,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:17,653] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 21847
+[2021-06-28 21:44:17,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:19,283] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/add/ HTTP/1.1" 200 14846
+[2021-06-28 21:44:19,502] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:24,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/subject/add/ HTTP/1.1" 302 0
+[2021-06-28 21:44:24,718] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 26069
+[2021-06-28 21:44:24,888] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:28,191] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/add/ HTTP/1.1" 200 14846
+[2021-06-28 21:44:28,251] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:39,594] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/subject/add/ HTTP/1.1" 302 0
+[2021-06-28 21:44:39,683] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 27435
+[2021-06-28 21:44:39,829] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:43,673] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/add/ HTTP/1.1" 200 14846
+[2021-06-28 21:44:43,727] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:44:48,192] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/subject/add/ HTTP/1.1" 302 0
+[2021-06-28 21:44:48,547] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 28772
+[2021-06-28 21:44:48,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:49:15,474] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 25330
+[2021-06-28 21:49:15,533] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:49:24,428] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 70534
+[2021-06-28 21:49:24,483] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:49:34,291] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 94937
+[2021-06-28 21:49:34,355] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:49:46,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 122022
+[2021-06-28 21:49:47,016] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:49:58,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 27957
+[2021-06-28 21:49:58,482] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:50:01,708] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/add/ HTTP/1.1" 200 19435
+[2021-06-28 21:50:01,898] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:50:16,995] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/base/ HTTP/1.1" 200 32894
+[2021-06-28 21:50:17,045] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:50:19,188] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 24281
+[2021-06-28 21:50:19,432] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:50:21,794] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/add/ HTTP/1.1" 200 29258
+[2021-06-28 21:50:21,852] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:51:26,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/add/ HTTP/1.1" 302 0
+[2021-06-28 21:51:26,243] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 32224
+[2021-06-28 21:51:26,370] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:51:29,686] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 23657
+[2021-06-28 21:51:29,740] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:51:34,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/add/ HTTP/1.1" 200 27822
+[2021-06-28 21:51:34,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:51:57,301] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/add/ HTTP/1.1" 302 0
+[2021-06-28 21:51:57,379] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29515
+[2021-06-28 21:51:57,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:52:01,243] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 27957
+[2021-06-28 21:52:01,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:52:02,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/add/ HTTP/1.1" 200 19473
+[2021-06-28 21:52:03,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:52:37,222] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/paper/add/ HTTP/1.1" 302 0
+[2021-06-28 21:52:37,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/paper/ HTTP/1.1" 200 35907
+[2021-06-28 21:52:37,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:52:42,900] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 39, in get
+    logger.info('{}请求教师主页------{}'.format(request.session['user'], time.strftime("%Y-%m-%d %H:%M:%S")))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'user'
+[2021-06-28 21:52:43,007] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89558
+[2021-06-28 21:53:03,489] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31922
+[2021-06-28 21:53:03,546] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:53:05,130] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/2/update/ HTTP/1.1" 200 29652
+[2021-06-28 21:53:05,195] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:53:08,081] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31922
+[2021-06-28 21:53:29,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 200 13385
+[2021-06-28 21:53:29,208] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:53:30,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 302 0
+[2021-06-28 21:53:30,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 24510
+[2021-06-28 21:53:30,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 21:58:47,289] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/add/ HTTP/1.1" 200 29258
+[2021-06-28 21:58:47,400] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:02:27,535] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31922
+[2021-06-28 22:02:27,626] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:02:29,895] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29213
+[2021-06-28 22:02:30,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:02:37,281] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 200 13491
+[2021-06-28 22:02:37,337] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:02:38,524] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 302 0
+[2021-06-28 22:02:39,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 23886
+[2021-06-28 22:02:39,419] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:04:00,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29213
+[2021-06-28 22:04:00,435] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:04:01,721] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/5/update/ HTTP/1.1" 200 28221
+[2021-06-28 22:04:01,801] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-28 22:04:09,186] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29213
+[2021-06-28 22:18:21,564] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 4175
+[2021-06-28 22:18:21,669] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:18:28,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 200 4412
+[2021-06-28 22:18:28,337] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:18:33,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4159
+[2021-06-28 22:18:33,325] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:18:45,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 200 4412
+[2021-06-28 22:18:45,259] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:18:47,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/xadmin/password_reset/ HTTP/1.1" 200 3250
+[2021-06-28 22:18:47,831] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:18:53,553] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/xadmin/password_reset/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "D:\python\onlineExam\extra_apps\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\python\onlineExam\extra_apps\xadmin\plugins\passwords.py", line 50, in post
+    form.save(**opts)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\forms.py", line 306, in save
+    email, html_email_template_name=html_email_template_name,
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\auth\forms.py", line 260, in send_mail
+    email_message.send()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\mail\backends\smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\mail\backends\smtp.py", line 126, in _send
+    self.connection.sendmail(from_email, recipients, message.as_bytes(linesep='\r\n'))
+  File "D:\Anaconda\envs\onlineExam\lib\smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (553, b'Mail from must equal authorized user', 'webmaster@localhost')
+[2021-06-28 22:18:54,090] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /admin/xadmin/password_reset/ HTTP/1.1" 500 142769
+[2021-06-28 22:18:57,311] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/xadmin/password_reset/ HTTP/1.1" 200 3250
+[2021-06-28 22:18:57,373] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:19:02,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 4175
+[2021-06-28 22:19:02,144] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-28 22:19:06,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 200 4412
+[2021-06-28 22:19:06,940] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166

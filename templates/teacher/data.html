@@ -1,0 +1,142 @@
+{% extends 'teacher/base.html' %}
+{% load staticfiles %}
+{% block mycss %}
+    <style type="text/css">
+        #table {
+            height: 400px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        #table::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+{% endblock %}
+{% block myjs %}
+    <script type="text/javascript" src="{% static 'js/echarts.min.js' %}"></script>
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>
+                            编号
+                        </th>
+                        <th>
+                            试卷名
+                        </th>
+                        <th>
+                            科目
+                        </th>
+                        <th>
+                            考试时间
+                        </th>
+                        <th>
+                            考试时长
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for paper in paper_list %}
+                        <tr onclick="show_grade({{ paper.paper_no }})">
+                            <td>
+                                {{ paper.paper_no }}
+                            </td>
+                            <td>
+                                {{ paper.title }}
+                            </td>
+                            <td>
+                                {{ paper.subject.name }}
+                            </td>
+                            <td>
+                                {{ paper.time }}
+                            </td>
+                            <td>
+                                {% if paper.duration == '4' %}60
+                                {% elif paper.duration == '3' %}90
+                                {% elif paper.duration == '2' %}100
+                                {% else %}150
+                                {% endif %}分钟
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                <div class="row clearfix"  style="border-top: 1px solid rgba(206,193,193,0.78);">
+                    <div class="col-md-6 column" id="table" style="border-right: 1px solid rgba(206,193,193,0.78);">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>
+                                    学号
+                                </th>
+                                <th>
+                                    姓名
+                                </th>
+                                <th>
+                                    班级
+                                </th>
+                                <th>
+                                    成绩
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for stu in stu_list %}
+                                <tr>
+                                    <td>
+                                        {{ stu.stu_no.stu_no }}
+                                    </td>
+                                    <td>
+                                        {{ stu.stu_no.name }}
+                                    </td>
+                                    <td>
+                                        {{ stu.stu_no.major }}{{ stu.stu_no.cls }}
+                                    </td>
+                                    <td>
+                                        {% if stu.is_finish %}
+                                            {{ stu.grade }}
+                                        {% else %}
+                                            <span style="color: red">未完成</span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-3 column" id="bar">
+                        {% if stu_list %}
+                            <iframe src="{% url 'teacher:grade_bar' paper_id %}"
+                                    style="width: 100%; height: 300px;"
+                                    scrolling="no" frameborder="no"></iframe>{% endif %}
+                    </div>
+                    <div class="col-md-3 column">
+                        {% if stu_list %}
+                            <iframe src="{% url 'teacher:grade_pie' paper_id %}"
+                                    style="width: 100%; height: 300px;"
+                                    scrolling="no" frameborder="no"></iframe>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+{% block footer %}
+
+{% endblock %}
+{% block js %}
+    <script>
+        function show_grade(event) {
+            window.location.href = "{% url 'teacher:grade' %}" + "?paper_id=" + event;
+        }
+    </script>
+{% endblock %}

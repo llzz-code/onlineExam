@@ -1,0 +1,50 @@
+{% extends 'student/base.html' %}
+{% block content %}
+    <div class="row clearfix">
+		<div class="col-md-12 column">
+			<table class="table" style="font-size: 25px">
+				<thead>
+					<tr>
+						<th>
+							学号
+						</th>
+						<th>
+							科目
+						</th>
+						<th>
+							考试时间
+						</th>
+						<th>
+							成绩
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+                {% if grade_list %}
+                {% for grade in grade_list %}
+                    <tr>
+						<td>
+							{{ grade.stu_no }}
+						</td>
+						<td>
+                            {{ grade.paper_no.title }}
+						</td>
+						<td>
+                            {{ grade.paper_no.time }}
+						</td>
+						<td>
+                            {{ grade.grade }}
+						</td>
+					</tr>
+                {% endfor %}
+                {% else %}
+                    <tr>
+                        <td>暂无信息</td>
+                    </tr>
+                {% endif %}
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,36 @@
+.answer_card {
+    width: 270px;
+    /*height: 300px;*/
+    background: #CCCCCC;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.answer_no {
+    width: 15%;
+    height: 40px;
+    margin: 5px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.color1 {
+    background: #33CC99
+}
+
+.color2 {
+    background: white;
+}
+
+
+.customerList {
+. px2rem(252);
+    height: 580px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.customerList::-webkit-scrollbar {
+    display: none;
+}

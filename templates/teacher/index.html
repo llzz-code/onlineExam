@@ -1,0 +1,54 @@
+{% extends 'teacher/base.html' %}
+{% block content %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                编号
+            </th>
+            <th>
+                试卷名
+            </th>
+            <th>
+                科目
+            </th>
+            <th>
+                考试时间
+            </th>
+            <th>
+                考试时长
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for paper in paper_list %}
+            <tr onclick="showPaper({{ paper.paper_no }})">
+                <td>
+                    {{ paper.paper_no }}
+                </td>
+                <td>
+                    {{ paper.title }}
+                </td>
+                <td>
+                    {{ paper.subject.name }}
+                </td>
+                <td>
+                    {{ paper.time }}
+                </td>
+                <td>
+                    {% if paper.duration == '4' %}60
+                    {% elif paper.duration == '3' %}90
+                    {% elif paper.duration == '2' %}100
+                    {% else %}150
+                    {% endif %}分钟
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <script>
+        function showPaper(paper_no) {
+            window.location.href="/teacher/paper/" + paper_no;
+        }
+    </script>
+{% endblock %}

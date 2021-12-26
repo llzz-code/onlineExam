@@ -1,0 +1,39 @@
+{% extends 'teacher/base.html' %}
+{% block content %}
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        试题
+                    </h3>
+                </div>
+                {% for question in question_list %}
+                    <div class="panel-body">
+                        <p>
+                            {{ forloop.counter }}.{{ question.title }}
+                            <span style="color:red;">答案：{{ question.answer }}</span>
+                        </p>
+                        <ul style="list-style-type: none">
+                            <li>
+                                A.{{ question.option_a }}
+                            </li>
+                            <li>
+                                B.{{ question.option_b }}
+                            </li>
+                            <li>
+                                C.{{ question.option_c }}
+                            </li>
+                            <li>
+                                D.{{ question.option_d }}
+                            </li>
+                        </ul>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}
+
+{% endblock %}

@@ -1,0 +1,20 @@
+[2021-06-29 19:31:54,124] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:09,534] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败Student matching query does not exist.
+[2021-06-29 19:32:10,892] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败Student matching query does not exist.
+[2021-06-29 19:32:19,847] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败Student matching query does not exist.
+[2021-06-29 19:32:44,886] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:46,045] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:46,857] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,075] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,204] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,394] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,925] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:48,155] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:48,188] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:48,259] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:57,016] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:34:52,896] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:34:54,023] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:35:01,156] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:37:08,453] [views.py:41] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:39:06,068] [views.py:42] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!

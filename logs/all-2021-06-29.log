@@ -1,0 +1,1106 @@
+[2021-06-29 10:30:59,398] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 10:31:00,197] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 304 0
+[2021-06-29 10:31:00,665] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 10:31:00,673] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 10:31:04,475] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 13009
+[2021-06-29 10:31:05,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:31:05,741] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 13009
+[2021-06-29 10:31:11,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 122022
+[2021-06-29 10:31:11,384] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:31:14,937] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31922
+[2021-06-29 10:31:15,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:31:22,788] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 10:31:32,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 10:31:32,875] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 10:31:33,053] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2021-06-29 10:31:36,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 10:31:41,966] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 10:31:42,623] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/query/ HTTP/1.1" 200 2073
+[2021-06-29 10:31:43,325] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 10:31:50,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 10:31:51,451] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 10:31:51,458] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 10:31:53,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 4175
+[2021-06-29 10:31:53,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-29 10:32:04,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 302 0
+[2021-06-29 10:32:04,615] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31922
+[2021-06-29 10:32:04,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:37:51,707] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 10:37:55,317] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29213
+[2021-06-29 10:37:55,746] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:38:02,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/5/update/ HTTP/1.1" 200 28221
+[2021-06-29 10:38:02,553] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:38:22,764] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/5/update/ HTTP/1.1" 302 0
+[2021-06-29 10:38:22,852] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29449
+[2021-06-29 10:38:22,974] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 10:38:30,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 10:38:30,743] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 39, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher_no).all()
+NameError: name 'teacher_no' is not defined
+[2021-06-29 10:38:31,450] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 85486
+[2021-06-29 10:39:16,535] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher.no).all()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'Base' object has no attribute 'no'
+[2021-06-29 10:39:16,800] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89429
+[2021-06-29 10:40:15,784] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher.tea_no).all()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'Base' object has no attribute 'tea_no'
+[2021-06-29 10:40:16,046] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89457
+[2021-06-29 10:41:40,416] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher.tea_no).all()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'Base' object has no attribute 'tea_no'
+[2021-06-29 10:41:40,675] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89478
+[2021-06-29 10:42:18,842] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 41, in get
+    logger.info('{}请求教师主页------{}'.format(request.session['user'], time.strftime("%Y-%m-%d %H:%M:%S")))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'user'
+[2021-06-29 10:42:19,165] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89396
+[2021-06-29 10:43:39,123] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 39, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher_info.tea_no).all()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'Base' object has no attribute 'tea_no'
+[2021-06-29 10:43:39,438] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89537
+[2021-06-29 10:46:17,131] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13034
+[2021-06-29 10:46:43,915] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 36, in get
+    print(teacher_info.tea_no)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'Base' object has no attribute 'tea_no'
+[2021-06-29 10:46:44,182] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89231
+[2021-06-29 11:00:20,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 4175
+[2021-06-29 11:00:20,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-29 11:00:26,193] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 302 0
+[2021-06-29 11:00:26,301] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 22389
+[2021-06-29 11:00:26,367] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 11:00:28,848] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 29447
+[2021-06-29 11:00:28,892] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 11:00:30,141] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/1/update/ HTTP/1.1" 200 19060
+[2021-06-29 11:00:30,314] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 11:00:33,225] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 29447
+[2021-06-29 11:01:59,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 11:01:59,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 11:02:00,790] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/1/update/ HTTP/1.1" 200 17276
+[2021-06-29 11:02:01,017] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 11:02:03,268] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 11:04:16,081] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 36, in get
+    print(teacher_info.tea_no)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\utils\functional.py", line 216, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'tea_no'
+[2021-06-29 11:04:16,401] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89317
+[2021-06-29 11:09:03,781] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 39, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher_info.tea_no).all()
+AttributeError: 'NoneType' object has no attribute 'tea_no'
+[2021-06-29 11:09:04,102] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 85837
+[2021-06-29 11:09:11,064] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 11:09:34,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 11:09:34,975] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    logger.info('{}请求教师主页------{}'.format(request.session['user'], time.strftime("%Y-%m-%d %H:%M:%S")))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'user'
+[2021-06-29 11:09:35,077] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89504
+[2021-06-29 11:10:01,544] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    logger.info('{}请求教师主页------{}'.format(request.session['user'], time.strftime("%Y-%m-%d %H:%M:%S")))
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'user'
+[2021-06-29 11:10:01,617] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 89765
+[2021-06-29 11:10:01,881] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 11:10:01,883] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 11:10:40,661] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 40, in get
+    logger.info('{}请求教师主页------{}'.format(teacher_no.name, time.strftime("%Y-%m-%d %H:%M:%S")))
+AttributeError: 'str' object has no attribute 'name'
+[2021-06-29 11:10:40,851] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 86172
+[2021-06-29 11:10:40,976] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 11:10:40,977] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 11:10:59,540] [views.py:40] [views:get] [INFO]- 张三请求教师主页------2021-06-29 11:10:59
+[2021-06-29 11:10:59,581] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 12739
+[2021-06-29 11:10:59,622] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 11:10:59,784] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-29 11:10:59,929] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 11:11:00,004] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 11:11:00,006] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 11:12:27,897] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/grade/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 108, in get
+    paper_id = request.GET.get('paper_id', paper_list[0].paper_no)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\db\models\query.py", line 307, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+[2021-06-29 11:12:28,129] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/grade/ HTTP/1.1" 500 89471
+[2021-06-29 11:14:52,815] [views.py:40] [views:get] [INFO]- 张三请求教师主页------2021-06-29 11:14:52
+[2021-06-29 11:14:52,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 12739
+[2021-06-29 11:14:55,974] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 14435
+[2021-06-29 11:14:55,998] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 304 0
+[2021-06-29 11:14:59,423] [views.py:40] [views:get] [INFO]- 张三请求教师主页------2021-06-29 11:14:59
+[2021-06-29 11:14:59,429] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 12739
+[2021-06-29 15:16:36,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:16:36,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:16:42,931] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 15:16:43,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:16:46,095] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 4175
+[2021-06-29 15:16:46,246] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-29 15:16:52,998] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 302 0
+[2021-06-29 15:16:53,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:16:53,146] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:19:27,992] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-29 15:19:28,005] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-29 15:19:30,050] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-29 15:19:30,056] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-29 15:21:40,637] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:22:16,561] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:22:27,711] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:22:27,957] [views.py:40] [views:get] [INFO]- 张三请求教师主页------2021-06-29 15:22:27
+[2021-06-29 15:22:28,203] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 12739
+[2021-06-29 15:22:37,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:22:46,450] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:22:46,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:22:50,351] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:22:53,001] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /teacher/index/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\teacher\views.py", line 39, in get
+    paper_list = Paper.objects.filter(teacher__tea_no=teacher_info.tea_no).all()
+AttributeError: 'NoneType' object has no attribute 'tea_no'
+[2021-06-29 15:22:57,120] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /teacher/index/ HTTP/1.1" 500 85883
+[2021-06-29 15:23:01,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:34:13,287] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:34:32,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:34:32,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:34:32,849] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2021-06-29 15:35:12,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:35:13,648] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 15:35:13,665] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:35:33,350] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/login/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 38, in get
+    print('------', View.__dir__())
+TypeError: descriptor '__dir__' of 'object' object needs an argument
+[2021-06-29 15:35:34,227] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /login/login/ HTTP/1.1" 500 84072
+[2021-06-29 15:35:57,559] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:41:26,332] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:41:27,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 4175
+[2021-06-29 15:41:27,484] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-29 15:41:33,299] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 302 0
+[2021-06-29 15:41:33,417] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:41:33,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:41:35,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:41:44,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:41:44,256] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 302 0
+[2021-06-29 15:41:44,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 15:42:04,684] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 15:42:12,678] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:42:12,970] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:42:14,380] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:42:15,558] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 15:42:15,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:42:17,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 4175
+[2021-06-29 15:42:17,629] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-29 15:43:08,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:43:14,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/teacher/teacher/ HTTP/1.1" 302 0
+[2021-06-29 15:43:14,831] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:43:14,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:43:22,535] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-29 15:43:22,551] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-29 15:43:24,361] [csrf.py:153] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /login/login/
+[2021-06-29 15:43:24,364] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /login/login/ HTTP/1.1" 403 2508
+[2021-06-29 15:43:30,750] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:43:32,073] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:43:39,749] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:43:40,007] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:43:41,509] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:43:42,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 15:43:42,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:43:44,636] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:43:44,687] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:47:34,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:47:43,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:47:44,234] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:47:50,942] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2229
+[2021-06-29 15:49:06,111] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:49:11,083] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 15:49:11,134] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:49:21,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:49:22,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 15:49:22,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:49:29,442] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:49:39,190] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:49:39,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:50:08,870] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 15:50:08,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index HTTP/1.1" 301 0
+[2021-06-29 15:50:09,138] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:50:18,263] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:50:20,849] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 15:50:20,864] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 15:50:23,734] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:50:27,907] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/logout/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 74, in get
+    del request.session['login_no']
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\sessions\backends\base.py", line 62, in __delitem__
+    del self._session[key]
+KeyError: 'login_no'
+[2021-06-29 15:50:28,331] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /login/logout/ HTTP/1.1" 500 87782
+[2021-06-29 15:51:19,787] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/logout/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 74, in get
+    del request.session['login_no']
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\contrib\sessions\backends\base.py", line 62, in __delitem__
+    del self._session[key]
+KeyError: 'login_no'
+[2021-06-29 15:51:20,151] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /login/logout/ HTTP/1.1" 500 87918
+[2021-06-29 15:51:22,341] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:51:23,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7078
+[2021-06-29 15:52:40,614] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 302 0
+[2021-06-29 15:52:40,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 15:55:59,369] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 15:56:07,959] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 15:56:08,216] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:56:09,840] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7146
+[2021-06-29 15:56:53,024] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7146
+[2021-06-29 15:57:00,901] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 15:57:07,352] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 21828
+[2021-06-29 15:57:07,748] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:57:09,766] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/add/ HTTP/1.1" 200 14827
+[2021-06-29 15:57:09,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:57:44,782] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/subject/add/ HTTP/1.1" 302 0
+[2021-06-29 15:57:44,864] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 26050
+[2021-06-29 15:57:44,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:57:46,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/add/ HTTP/1.1" 200 14827
+[2021-06-29 15:57:46,981] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:57:56,389] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/subject/add/ HTTP/1.1" 302 0
+[2021-06-29 15:57:56,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/add/ HTTP/1.1" 200 15174
+[2021-06-29 15:57:56,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:02,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/subject/add/ HTTP/1.1" 302 0
+[2021-06-29 15:58:03,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/subject/ HTTP/1.1" 200 28753
+[2021-06-29 15:58:03,190] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:06,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 25311
+[2021-06-29 15:58:06,314] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:07,141] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/add/ HTTP/1.1" 200 19098
+[2021-06-29 15:58:07,326] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:09,681] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 25311
+[2021-06-29 15:58:17,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 70515
+[2021-06-29 15:58:17,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:25,569] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 94918
+[2021-06-29 15:58:25,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:35,661] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/questionbank/ HTTP/1.1" 200 122003
+[2021-06-29 15:58:35,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:42,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:58:42,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:44,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 29447
+[2021-06-29 15:58:44,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 15:58:46,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 15:58:47,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:04:56,213] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 16:04:56,352] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:04:56,866] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31434
+[2021-06-29 16:04:57,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:05:06,378] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 200 101419
+[2021-06-29 16:05:06,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:05:10,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/83/update/ HTTP/1.1" 200 19029
+[2021-06-29 16:05:10,983] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:05:16,412] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101419
+[2021-06-29 16:05:16,487] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:06:38,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 200 20798
+[2021-06-29 16:06:38,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:06:41,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 302 0
+[2021-06-29 16:06:41,733] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 77143
+[2021-06-29 16:06:41,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:06:52,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 200 18028
+[2021-06-29 16:06:52,307] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:06:54,315] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/ HTTP/1.1" 302 0
+[2021-06-29 16:06:54,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 31664
+[2021-06-29 16:06:55,003] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:06:58,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/?_cols=stu_no.gender.dept.major.cls.phone.name HTTP/1.1" 200 34099
+[2021-06-29 16:06:58,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:07:13,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/?_cols=stu_no.gender.dept.major.cls.phone.name HTTP/1.1" 200 108770
+[2021-06-29 16:07:13,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:07:20,705] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 16:07:20,761] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:07:33,042] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/questionbank/ HTTP/1.1" 200 122003
+[2021-06-29 16:07:33,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:07:36,040] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 16:07:37,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7146
+[2021-06-29 16:07:39,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 16:07:39,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 16:07:45,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101519
+[2021-06-29 16:07:45,178] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:07:53,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 16:07:53,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 16:07:55,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7131
+[2021-06-29 16:07:57,567] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 16:07:57,875] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 16:10:55,205] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 16:10:55,515] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 16:10:57,167] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7131
+[2021-06-29 16:11:02,787] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /student/center/ HTTP/1.1" 200 51
+[2021-06-29 16:11:04,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7131
+[2021-06-29 16:11:11,221] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /student/email/
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view student.views.Email didn't return an HttpResponse object. It returned None instead.
+[2021-06-29 16:11:11,588] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /student/email/ HTTP/1.1" 500 20088
+[2021-06-29 16:11:51,277] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7140
+[2021-06-29 16:11:54,397] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 7140
+[2021-06-29 16:11:57,727] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101519
+[2021-06-29 16:11:57,787] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:11:59,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/165/update/ HTTP/1.1" 200 19045
+[2021-06-29 16:11:59,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:12:03,049] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101519
+[2021-06-29 16:12:05,491] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/? HTTP/1.1" 200 7140
+[2021-06-29 16:12:56,318] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/? HTTP/1.1" 200 6419
+[2021-06-29 16:12:56,448] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 16:12:56,612] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 16:12:59,266] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 16:12:59,536] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 16:12:59,552] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 16:13:05,769] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/? HTTP/1.1" 200 6419
+[2021-06-29 16:13:05,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 16:13:05,998] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 16:13:06,340] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 16:13:06,610] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 16:13:06,610] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 16:13:07,879] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6419
+[2021-06-29 16:13:12,398] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 16:13:12,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 16:13:22,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 16:13:23,158] [views.py:40] [views:get] [INFO]- 张三请求教师主页------2021-06-29 16:13:23
+[2021-06-29 16:13:23,226] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 12858
+[2021-06-29 16:22:31,999] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 16:22:31
+[2021-06-29 16:22:32,145] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13105
+[2021-06-29 16:22:40,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/c_pass/ HTTP/1.1" 200 65
+[2021-06-29 16:22:43,250] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/c_pass/ HTTP/1.1" 200 107
+[2021-06-29 16:22:50,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/c_pass/ HTTP/1.1" 200 27
+[2021-06-29 16:22:51,187] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 16:22:51
+[2021-06-29 16:22:51,207] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13105
+[2021-06-29 16:22:55,981] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 16:22:56,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:22:57,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/1/update/ HTTP/1.1" 200 17276
+[2021-06-29 16:22:57,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:23:17,340] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 26729
+[2021-06-29 16:23:17,390] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 16:30:13,371] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29423
+[2021-06-29 16:30:13,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:29:35,310] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 19:29:35
+[2021-06-29 19:29:35,392] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13105
+[2021-06-29 19:29:35,506] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29423
+[2021-06-29 19:29:35,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2021-06-29 19:29:35,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:30:01,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/create/?paper_name=%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8&subject=2 HTTP/1.1" 200 33832
+[2021-06-29 19:30:31,561] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/create/ HTTP/1.1" 200 29
+[2021-06-29 19:30:31,676] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 19:30:31
+[2021-06-29 19:30:31,955] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 19:31:35,483] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /teacher/file/ HTTP/1.1" 200 27
+[2021-06-29 19:31:35,533] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 19:31:35
+[2021-06-29 19:31:35,558] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 19:31:38,018] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 30863
+[2021-06-29 19:31:38,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/echarts.min.js HTTP/1.1" 304 0
+[2021-06-29 19:31:38,790] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210629/ HTTP/1.1" 200 2931
+[2021-06-29 19:31:38,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210629/ HTTP/1.1" 200 4173
+[2021-06-29 19:31:47,464] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 19:31:47,474] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:31:47,727] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 304 0
+[2021-06-29 19:31:47,860] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 304 0
+[2021-06-29 19:31:47,860] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 304 0
+[2021-06-29 19:31:47,862] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 304 0
+[2021-06-29 19:31:47,862] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 304 0
+[2021-06-29 19:31:54,124] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:31:54,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:31:59,736] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29423
+[2021-06-29 19:31:59,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:32:02,516] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101854
+[2021-06-29 19:32:02,559] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:32:09,534] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败Student matching query does not exist.
+[2021-06-29 19:32:09,536] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:10,892] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败Student matching query does not exist.
+[2021-06-29 19:32:10,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:13,016] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:32:19,847] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败Student matching query does not exist.
+[2021-06-29 19:32:19,848] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:30,316] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/184/update/ HTTP/1.1" 200 19023
+[2021-06-29 19:32:30,372] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:32:33,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101854
+[2021-06-29 19:32:44,886] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:44,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:46,045] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:46,047] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:46,857] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:46,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:47,075] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:47,204] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,211] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:47,394] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,396] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:47,925] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:47,928] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:48,155] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:48,156] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:48,188] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:48,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:48,259] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:48,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:32:49,691] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:32:57,016] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:32:57,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:34:32,945] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/184/update/ HTTP/1.1" 200 19023
+[2021-06-29 19:34:33,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:34:39,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/student/student/184/update/ HTTP/1.1" 302 0
+[2021-06-29 19:34:39,693] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 102087
+[2021-06-29 19:34:40,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:34:41,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/184/update/ HTTP/1.1" 200 19023
+[2021-06-29 19:34:41,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:34:52,896] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:34:52,898] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:34:54,023] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:34:54,026] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:34:55,698] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:35:01,156] [views.py:40] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:35:01,158] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:36:50,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:36:51,299] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 19:36:51,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-29 19:36:52,931] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 19:36:52,981] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 19:36:53,018] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 19:36:53,065] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 19:36:53,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 19:36:53,270] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 19:37:01,949] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101851
+[2021-06-29 19:37:02,034] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:37:08,453] [views.py:41] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:37:08,456] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:38:24,756] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/?p=1 HTTP/1.1" 200 102105
+[2021-06-29 19:38:24,823] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:38:35,653] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/?p=2 HTTP/1.1" 200 33904
+[2021-06-29 19:38:35,712] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:38:38,478] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/?p=0 HTTP/1.1" 200 102162
+[2021-06-29 19:38:38,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:38:56,619] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:38:57,522] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-29 19:38:57,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 19:38:57,807] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 19:38:57,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 19:38:57,907] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 19:38:57,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 19:38:57,914] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 19:38:57,916] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 19:39:06,068] [views.py:42] [views:auth_login] [ERROR]- 登录验证失败get() returned more than one Student -- it returned 2!
+[2021-06-29 19:39:06,069] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:41:10,343] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:41:10,407] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-29 19:41:10,469] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 19:41:10,989] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 19:41:11,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 19:41:11,035] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 19:41:11,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 19:41:11,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 19:41:11,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 19:41:24,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 19:41:24,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index HTTP/1.1" 301 0
+[2021-06-29 19:41:25,442] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2749
+[2021-06-29 19:41:25,566] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 19:41:25,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 19:41:26,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 19:41:26,789] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-29 19:41:30,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6410
+[2021-06-29 19:41:35,144] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2749
+[2021-06-29 19:41:37,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/19/ HTTP/1.1" 200 20480
+[2021-06-29 19:42:11,130] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /student/check/ HTTP/1.1" 200 32
+[2021-06-29 19:42:11,395] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/query/ HTTP/1.1" 200 2301
+[2021-06-29 19:44:42,810] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/exam/ HTTP/1.1" 200 49223
+[2021-06-29 19:44:42,900] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:44:46,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/exam/19/update/ HTTP/1.1" 200 21641
+[2021-06-29 19:44:47,109] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:44:54,681] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/paper/exam/19/update/ HTTP/1.1" 302 0
+[2021-06-29 19:44:54,842] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/exam/ HTTP/1.1" 200 49454
+[2021-06-29 19:44:54,914] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:45:00,072] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/query/ HTTP/1.1" 200 2288
+[2021-06-29 19:45:01,595] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6410
+[2021-06-29 19:45:04,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 19:45:04,091] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 19:45:43,208] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 19:46:03,497] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/ HTTP/1.1" 200 29423
+[2021-06-29 19:46:03,558] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:46:04,806] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/1/update/ HTTP/1.1" 200 17276
+[2021-06-29 19:46:05,018] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 19:46:13,279] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 19:46:13,545] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 19:46:13
+[2021-06-29 19:46:13,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 19:46:15,840] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 30827
+[2021-06-29 19:46:16,168] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210629/ HTTP/1.1" 200 4239
+[2021-06-29 19:46:16,397] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210629/ HTTP/1.1" 200 2931
+[2021-06-29 20:06:03,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/1/update/ HTTP/1.1" 200 17276
+[2021-06-29 20:06:04,026] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 20:06:10,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:06:10,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:06:13,100] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 302 0
+[2021-06-29 20:06:13,403] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 20:06:28,071] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 71
+[2021-06-29 20:06:34,483] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:06:34,746] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:06:34
+[2021-06-29 20:06:35,362] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:06:41,790] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 20:06:41,945] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:06:41
+[2021-06-29 20:06:41,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:06:51,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 20:07:19,634] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 302 0
+[2021-06-29 20:07:19,641] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index HTTP/1.1" 301 0
+[2021-06-29 20:07:19,772] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:07:19
+[2021-06-29 20:07:20,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:07:26,766] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:07:26,773] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:07:31,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:07:36,293] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 20:07:44,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:07:44,990] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:07:46,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 20:07:47,133] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index HTTP/1.1" 301 0
+[2021-06-29 20:07:47,598] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:07:51,365] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6418
+[2021-06-29 20:07:53,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6418
+[2021-06-29 20:07:56,274] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:07:56,279] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:07:57,876] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 302 0
+[2021-06-29 20:07:58,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 20:08:21,165] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:08:21,444] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:08:26,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 20:08:26,094] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:08:29,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6418
+[2021-06-29 20:08:31,046] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:08:31,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:08:32,590] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 302 0
+[2021-06-29 20:08:32,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3680
+[2021-06-29 20:08:40,891] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:08:41,171] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:08:51,266] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 302 0
+[2021-06-29 20:08:51,553] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:08:59,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 302 0
+[2021-06-29 20:09:00,097] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:09:08,184] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6418
+[2021-06-29 20:09:10,062] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:09:10,069] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:09:11,723] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:09:11,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-29 20:09:12,198] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 20:09:12,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 20:09:12,968] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 20:09:13,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 20:09:13,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 20:09:13,111] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 20:09:13,227] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 20:09:20,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:09:21,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:09:31,968] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 302 0
+[2021-06-29 20:09:32,232] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index HTTP/1.1" 301 0
+[2021-06-29 20:09:32,290] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 20:09:58,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6418
+[2021-06-29 20:10:00,453] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:10:00,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3680
+[2021-06-29 20:10:03,414] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:10:03,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index HTTP/1.1" 301 0
+[2021-06-29 20:10:03,818] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:10:03
+[2021-06-29 20:10:03,876] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:10:04,100] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 20:10:04,516] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 20:10:05,179] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 31824
+[2021-06-29 20:10:05,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-29 20:10:18,118] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 302 0
+[2021-06-29 20:10:18,397] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:10:18
+[2021-06-29 20:10:18,408] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:12:35,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 20:12:35,950] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index HTTP/1.1" 301 0
+[2021-06-29 20:12:36,348] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:12:36
+[2021-06-29 20:12:36,381] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:12:41,157] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 20:12:41,186] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3906
+[2021-06-29 20:12:41,362] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-29 20:12:41,628] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 20:12:42,023] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 20:12:42,029] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 20:12:42,030] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 20:12:42,034] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 20:12:42,037] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 20:12:42,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 20:12:43,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 302 0
+[2021-06-29 20:12:43,586] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 3906
+[2021-06-29 20:12:55,073] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 20:12:55,310] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:12:55
+[2021-06-29 20:12:55,346] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:13:09,803] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 302 0
+[2021-06-29 20:13:10,085] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:13:10
+[2021-06-29 20:13:10,106] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:13:29,818] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 20:13:30,204] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:13:30
+[2021-06-29 20:13:30,243] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 20:13:40,824] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 20:13:40,828] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index HTTP/1.1" 301 0
+[2021-06-29 20:13:41,111] [views.py:41] [views:get] [INFO]- 张三请求教师主页------2021-06-29 20:13:41
+[2021-06-29 20:13:41,143] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/index/ HTTP/1.1" 200 13708
+[2021-06-29 21:15:46,894] [exception.py:74] [exception:response_for_exception] [ERROR]- Invalid HTTP_HOST header: 't3jgo6hs.dnat.tech'. You may need to add 't3jgo6hs.dnat.tech' to ALLOWED_HOSTS.
+[2021-06-29 21:15:47,090] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 400 70919
+[2021-06-29 21:15:47,601] [exception.py:74] [exception:response_for_exception] [ERROR]- Invalid HTTP_HOST header: 't3jgo6hs.dnat.tech'. You may need to add 't3jgo6hs.dnat.tech' to ALLOWED_HOSTS.
+[2021-06-29 21:15:47,640] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 400 70833
+[2021-06-29 21:16:02,656] [exception.py:74] [exception:response_for_exception] [ERROR]- Invalid HTTP_HOST header: 't3jgo6hs.dnat.tech'. You may need to add 't3jgo6hs.dnat.tech' to ALLOWED_HOSTS.
+[2021-06-29 21:16:02,696] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 400 70637
+[2021-06-29 21:16:23,406] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3906
+[2021-06-29 21:16:23,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3906
+[2021-06-29 21:16:23,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 4807
+[2021-06-29 21:16:23,898] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 21:16:24,306] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 21:16:24,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 21:16:24,504] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 21:16:24,599] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 21:16:24,601] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 21:16:24,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 21:16:27,113] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:16:27,115] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:16:58,927] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/teacher/teacher/1/update/ HTTP/1.1" 200 17276
+[2021-06-29 21:16:59,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 21:17:11,312] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 21:17:11,696] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index HTTP/1.1" 301 0
+[2021-06-29 21:17:11,867] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 21:17:12,063] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 21:17:12,938] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:17:12,939] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:17:20,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6418
+[2021-06-29 21:17:20,787] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:17:20,787] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:17:25,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 21:17:25,389] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3906
+[2021-06-29 21:17:25,621] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:17:25,621] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:17:44,756] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101851
+[2021-06-29 21:17:44,839] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 21:18:00,693] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 21:18:01,269] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2749
+[2021-06-29 21:18:01,954] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:18:01,955] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:18:05,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/18/ HTTP/1.1" 200 20483
+[2021-06-29 21:18:05,692] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:18:05,693] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:18:38,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/18/ HTTP/1.1" 200 20483
+[2021-06-29 21:18:59,683] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /student/check/ HTTP/1.1" 200 32
+[2021-06-29 21:18:59,893] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/query/ HTTP/1.1" 200 2287
+[2021-06-29 21:19:00,204] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:19:00,205] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:19:06,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 30790
+[2021-06-29 21:19:07,099] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210629/ HTTP/1.1" 200 4280
+[2021-06-29 21:19:07,134] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210629/ HTTP/1.1" 200 2931
+[2021-06-29 21:19:58,854] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 30790
+[2021-06-29 21:19:59,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210629/ HTTP/1.1" 200 4280
+[2021-06-29 21:19:59,056] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210629/ HTTP/1.1" 200 2931
+[2021-06-29 21:20:12,360] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 30790
+[2021-06-29 21:20:12,573] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210629/ HTTP/1.1" 200 2931
+[2021-06-29 21:20:12,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210629/ HTTP/1.1" 200 4280
+[2021-06-29 21:20:24,867] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/query/ HTTP/1.1" 200 2287
+[2021-06-29 21:20:27,369] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6413
+[2021-06-29 21:20:27,710] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:20:27,711] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:20:37,020] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 21:20:37,177] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3906
+[2021-06-29 21:20:37,530] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:20:37,531] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:22:27,877] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/student/student/ HTTP/1.1" 200 101851
+[2021-06-29 21:22:28,262] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 21:22:29,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade/ HTTP/1.1" 200 30790
+[2021-06-29 21:22:30,108] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_bar/20210629/ HTTP/1.1" 200 4280
+[2021-06-29 21:22:30,370] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /teacher/grade_pie/20210629/ HTTP/1.1" 200 2931
+[2021-06-29 21:22:35,774] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 21:22:35,790] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4272
+[2021-06-29 21:22:45,395] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4272
+[2021-06-29 21:22:49,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4272
+[2021-06-29 21:23:49,115] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4272
+[2021-06-29 21:23:53,858] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4272
+[2021-06-29 21:24:21,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4258
+[2021-06-29 21:24:28,239] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4258
+[2021-06-29 21:26:39,241] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4279
+[2021-06-29 21:26:41,598] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerror.html
+[2021-06-29 21:26:41,624] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerror.html HTTP/1.1" 404 2520
+[2021-06-29 21:28:57,233] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerror.html
+[2021-06-29 21:28:57,248] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerror.html HTTP/1.1" 404 2520
+[2021-06-29 21:29:01,822] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 302 0
+[2021-06-29 21:29:02,024] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/login/ HTTP/1.1" 200 4279
+[2021-06-29 21:29:03,534] [base.py:93] [base:get_response] [WARNING]- Not Found: /login/login/phoneerror.html
+[2021-06-29 21:29:03,536] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /login/login/phoneerror.html HTTP/1.1" 404 2971
+[2021-06-29 21:29:03,868] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:29:03,869] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:29:06,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/18/ HTTP/1.1" 200 20474
+[2021-06-29 21:29:06,914] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:29:06,915] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:29:07,452] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/18/ HTTP/1.1" 200 20474
+[2021-06-29 21:29:10,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4279
+[2021-06-29 21:29:10,355] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerror.html
+[2021-06-29 21:29:10,356] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerror.html HTTP/1.1" 404 2520
+[2021-06-29 21:29:10,733] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:29:10,734] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:29:11,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4279
+[2021-06-29 21:29:20,585] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerror.html
+[2021-06-29 21:29:20,587] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerror.html HTTP/1.1" 404 2520
+[2021-06-29 21:29:20,801] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:29:20,802] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:29:31,052] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneer
+[2021-06-29 21:29:31,062] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneer HTTP/1.1" 404 2496
+[2021-06-29 21:29:31,080] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerror.htm
+[2021-06-29 21:29:31,093] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerro
+[2021-06-29 21:29:31,114] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerror.htm HTTP/1.1" 404 2517
+[2021-06-29 21:29:31,117] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerror
+[2021-06-29 21:29:31,118] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerro HTTP/1.1" 404 2502
+[2021-06-29 21:29:31,131] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerror HTTP/1.1" 404 2505
+[2021-06-29 21:29:31,160] [base.py:93] [base:get_response] [WARNING]- Not Found: /phoneerr
+[2021-06-29 21:29:31,165] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /phoneerr HTTP/1.1" 404 2499
+[2021-06-29 21:29:31,174] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\python\onlineExam\apps\login\views.py", line 21, in get
+    return render(request, 'index.html')
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\defaulttags.py", line 1363, in url
+    viewname = parser.compile_filter(bits[1])
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Anaconda\envs\onlineExam\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''login:phone' from ''login:phone'
+[2021-06-29 21:29:31,429] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /phoneerr HTTP/1.1" 500 59
+[2021-06-29 21:29:31,433] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /phoneerror HTTP/1.1" 500 59
+[2021-06-29 21:29:31,434] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /phoneer HTTP/1.1" 500 59
+[2021-06-29 21:29:31,443] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /phoneerro HTTP/1.1" 500 59
+[2021-06-29 21:29:31,613] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /phoneerror.htm HTTP/1.1" 500 59
+[2021-06-29 21:29:33,856] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 160988
+[2021-06-29 21:29:34,326] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:29:34,328] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2508
+[2021-06-29 21:30:31,869] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4277
+[2021-06-29 21:30:32,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/phone/ HTTP/1.1" 200 237
+[2021-06-29 21:46:32,387] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4277
+[2021-06-29 21:46:32,604] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 304 0
+[2021-06-29 21:46:32,809] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 21:46:32,852] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/bj.jpg HTTP/1.1" 200 116831
+[2021-06-29 21:46:32,917] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/head.gif HTTP/1.1" 200 20615
+[2021-06-29 21:46:33,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/d.png HTTP/1.1" 200 156041
+[2021-06-29 21:46:33,363] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/e.png HTTP/1.1" 200 36374
+[2021-06-29 21:46:33,390] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/b.png HTTP/1.1" 200 3986
+[2021-06-29 21:46:33,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/images/a.png HTTP/1.1" 200 2788
+[2021-06-29 21:46:34,434] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:46:34,501] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 21:46:54,939] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 21:46:55,072] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index HTTP/1.1" 301 0
+[2021-06-29 21:46:55,327] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 21:46:55,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 21:47:08,878] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2021-06-29 21:47:09,222] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4159
+[2021-06-29 21:47:09,353] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2021-06-29 21:47:09,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2021-06-29 21:47:09,645] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2021-06-29 21:47:09,647] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2021-06-29 21:47:09,654] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2021-06-29 21:47:09,660] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2021-06-29 21:47:09,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 21:47:10,029] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2021-06-29 21:47:10,030] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2021-06-29 21:47:10,032] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2021-06-29 21:47:10,039] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2021-06-29 21:47:10,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2021-06-29 21:47:10,165] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 4166
+[2021-06-29 21:47:10,386] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2021-06-29 21:47:10,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2021-06-29 21:47:10,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2021-06-29 21:47:18,417] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /admin/ HTTP/1.1" 302 0
+[2021-06-29 21:47:18,601] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 12990
+[2021-06-29 21:47:18,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+[2021-06-29 21:47:19,020] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+[2021-06-29 21:47:19,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+[2021-06-29 21:47:19,048] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 21:47:53,069] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/paper/exam/ HTTP/1.1" 200 49211
+[2021-06-29 21:47:53,220] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2021-06-29 21:47:53,546] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[2021-06-29 21:47:53,547] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2021-06-29 21:47:53,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2021-06-29 21:47:53,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2021-06-29 21:47:53,554] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2021-06-29 21:47:53,584] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2021-06-29 21:47:53,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2021-06-29 21:48:03,960] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 302 0
+[2021-06-29 21:48:04,236] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2243
+[2021-06-29 21:48:06,353] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/center/ HTTP/1.1" 200 6413
+[2021-06-29 21:48:08,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/logout/ HTTP/1.1" 302 0
+[2021-06-29 21:48:08,674] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4277
+[2021-06-29 21:48:14,451] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 200 41
+[2021-06-29 21:48:15,170] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/login/ HTTP/1.1" 302 0
+[2021-06-29 21:48:15,359] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/index/ HTTP/1.1" 200 2749
+[2021-06-29 21:48:17,346] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20483
+[2021-06-29 21:49:13,194] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20458
+[2021-06-29 21:49:56,178] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20488
+[2021-06-29 21:50:46,759] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20488
+[2021-06-29 21:51:16,839] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20457
+[2021-06-29 21:53:21,426] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20586
+[2021-06-29 21:53:31,255] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-29 21:54:17,580] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 20535
+[2021-06-29 21:54:18,009] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[2021-06-29 21:56:11,048] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22161
+[2021-06-29 21:56:49,004] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22217
+[2021-06-29 21:57:04,061] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22170
+[2021-06-29 21:57:04,326] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 21:57:04,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 21:57:05,021] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:57:05,024] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 21:57:27,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22203
+[2021-06-29 21:57:27,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 21:57:27,736] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 21:57:28,063] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:57:28,066] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 21:59:04,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 38131
+[2021-06-29 21:59:04,959] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 21:59:05,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 21:59:27,722] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 38131
+[2021-06-29 21:59:47,556] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 21:59:47,558] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 22:00:10,763] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22826
+[2021-06-29 22:00:10,942] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 22:00:11,179] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 22:00:11,515] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 22:00:11,516] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 22:01:05,948] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22864
+[2021-06-29 22:01:30,086] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 22865
+[2021-06-29 22:01:30,358] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[2021-06-29 22:01:30,514] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/js/jquery.js HTTP/1.1" 200 240197
+[2021-06-29 22:01:30,836] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2021-06-29 22:01:30,838] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2504
+[2021-06-29 22:03:57,257] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 23097
+[2021-06-29 22:04:12,983] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /student/exam/17/ HTTP/1.1" 200 23066

@@ -1,0 +1,81 @@
+{% extends 'student/base.html' %}
+{% block content %}
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <table class="table" style="font-size: 25px">
+                <thead>
+                <tr>
+                    <th>
+                        编号
+                    </th>
+                    <th>
+                        科目
+                    </th>
+                    <th>
+                        考试时间
+                    </th>
+                    <th>
+                        操作
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for exam in exam_list %}
+                    <tr>
+                        <td>
+                            {{ forloop.counter }}
+                        </td>
+                        <td>
+                            {{ exam.paper_no.title }}
+                        </td>
+                        <td id="exam" exam_no="{{ exam.id }}"
+                            day="{{ exam.paper_no.time.year }}{{ exam.paper_no.time.month }}{{ exam.paper_no.time.day }}"
+                            hour="{{ exam.paper_no.time.hour }}" min="{{ exam.paper_no.time.minute }}"
+                            duration="{{ exam.paper_no.duration }}">
+                            {{ exam.paper_no.time }}
+                        </td>
+                        <td>
+                            <a href="{% url 'student:exam' exam.id %}" id="{{ exam.id }}">进入考试</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+{% block myjs %}
+    <script>
+        $(function () {
+            let date = new Date();
+            let time = "" + date.getFullYear() + (date.getMonth() + 1)  + date.getDate();
+            let hour = $("#exam").attr('hour');
+            let min = $("#exam").attr('min');
+            let day = $("#exam").attr('day');
+            let duration = $("#exam").attr('duration');
+            switch (duration) {
+                case '1': duration = 150;break;
+                case '2': duration = 100;break;
+                case '3': duration = 90;break;
+                case '4': duration = 60;break;
+            }
+            console.log(time)
+            console.log(day);
+            console.log(Number(hour)*60+ Number(min) + duration);
+            console.log(date.getHours()*60+date.getMinutes());
+            if (time != $("#exam").attr('day') || (Number(hour) * 60 + Number(min) > date.getHours() * 60 + date.getMinutes())) {
+                let id = "#" + $("#exam").attr('exam_no');
+                $(id).attr('disabled', true).css("pointer-events", "none");
+                $(id).css("color", 'white');
+            }
+            if ((Number(hour) * 60 + Number(min) + duration < date.getHours() * 60 +date.getMinutes())){
+                let id = "#" + $("#exam").attr('exam_no');
+                $(id).attr('disabled', true).css("pointer-events", "none");
+                $(id).css("color", 'white');
+                $(id).html('考试时间已过');
+            }
+        })
+    </script>
+{% endblock %}

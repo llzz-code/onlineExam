@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<head>
+    <meta charset="utf-8"/>
+    <title>教师管理中心</title>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    {% block mycss %}
+
+    {% endblock %}
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    {% block myjs %}
+
+    {% endblock %}
+</head>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="{% url 'teacher:index' %}">首页</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li {% if request.path|slice:':14' == '/teacher/grade' %} class="active"{% endif %}>
+                            <a href="{% url 'teacher:grade' %}">成绩统计</a>
+                        </li>
+                        <li {% if request.path|slice:':15' == '/teacher/create' %} class="active"{% endif %}>
+                            <a data-toggle="modal" data-target="#myModal1">发布试卷</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" id="keywords" class="form-control" placeholder="试卷名/试卷号"/>
+                        </div>
+                        <button class="btn btn-default" id="search">搜索</button>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ teacher_info.name }}<strong
+                                    class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#changePhone" role="button" data-toggle="modal">修改手机号</a>
+                                </li>
+                                <li>
+                                    <a href="#changePass" role="button" data-toggle="modal">修改密码</a>
+                                </li>
+                                <li>
+                                    <a href="#examStu" role="button" data-toggle="modal">批量录入考试学生</a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="{% url 'login:logout' %}">退出登录</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </div>
+{% block footer %}
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="col-md-4 column">
+        </div>
+        <div class="col-md-4 column" style="text-align: center">
+            <address><p>&copy;&nbsp;LZ站长</p>
+                <abbr title="Email">Email:</abbr> 2270038123@qq.com
+            </address>
+        </div>
+        <div class="col-md-4 column">
+        </div>
+    </nav>
+{% endblock %}
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        试卷名
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <input id="paper_name" value="" class="form-control" placeholder="输入试卷名"/>
+                    <div class="btn-group" style="display: flex;">
+                        <label for="name" style="font-size: 15px;font-weight: normal">考试科目</label>
+                        <select class="form-control" id="subject">
+                            {% for foo in subject %}
+                                <option value="{{ foo.id }}">{{ foo.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        关闭
+                    </button>
+                    <button type="button" class="btn btn-primary" id="create">
+                        创建
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- 修改手机号 -->
+    <div class="modal fade" id="changePhone" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" value="" id="phone" placeholder="请输入新手机号"/>
+                    <span style="color: red" id="error"></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" id="save">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 修改邮箱 -->
+    <div class="modal fade" id="changePass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" value="" id="password" placeholder="请输入新密码"/>
+                    <span style="color: red" id="errorPass"></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" id="savePass">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导入考试学生信息 -->
+    <div class="modal fade" id="examStu" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <input type="file" value="" id="file" accept=".xls,.xlsx"/>
+                    <div class="btn-group" style="display: flex;">
+                        <select class="form-control" id="paper">
+                            {% for paper in paper_list %}
+                                <option value="{{ paper.paper_no }}">{{ paper.title }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <span style="color: red" id="errorFile"></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" id="exam">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 加载 -->
+    <div class="modal fade" id="loding" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="sp sp-vortex"></div>
+                    <h5>导入中</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        $("#search").click(function () {
+            let keyword = $("#keywords").val();
+            let url = "{% url 'teacher:index' %}"
+            if (keyword) url = url + "?keyword=" + keyword;
+            else url = url;
+            window.location.href = url
+        });
+        $("#create").click(function () {
+            let paper_name = $("#paper_name").val();
+            let subject = $("#subject").val();
+            let path = "{{ request.path|slice:':14'}}"
+            if (path == "/teacher/index") {
+                if (paper_name == "" || subject == "") {
+                    alert("请输入试卷名和选择一个科目");
+                    throw SyntaxError();
+                } else {
+                    window.location.href = "{% url 'teacher:create' %}"
+                        + "?paper_name=" + paper_name + "&subject=" + subject;
+                }
+            }
+
+        });
+        $("#save").click(function () {
+            let phone = $("#phone").val()
+            if (phone == "") {
+                $("#error").html("请输入手机号");
+            } else {
+                $.ajax({
+                    type: "POST",
+                    url: "{% url 'teacher:c_phone' %}",
+                    data: {
+                        'phone': phone,
+                        'csrfmiddlewaretoken': "{{ csrf_token }}",
+                    },
+                    success: function (callback) {
+                        if (callback.status == 'ok') {
+                            window.location.reload();
+                        } else {
+                            $("#error").html(callback.msg)
+                        }
+                    }
+                })
+            }
+        });
+        $("#savePass").click(function () {
+            let password = $("#password").val()
+            if (password == "") {
+                $("#errorPass").html("请输入密码");
+            } else {
+                $.ajax({
+                    type: "POST",
+                    url: "{% url 'teacher:c_pass' %}",
+                    data: {
+                        'password': password,
+                        'csrfmiddlewaretoken': "{{ csrf_token }}",
+                    },
+                    success: function (callback) {
+                        if (callback.status == 'ok') {
+                            alert('修改成功');
+                            window.location.reload();
+                        } else {
+                            $("#errorPass").html(callback.msg)
+                        }
+                    }
+                })
+            }
+        });
+        $("#exam").click(function () {
+            let paper_no = $("#paper").val();
+            let stu_file = $("#file").val().split('\\');
+            if (stu_file.length == 0 || paper_no == "") {
+                alert("请选择完整信息");
+                throw SyntaxError();
+            }
+            $("#exam").html('Loding.....');
+            let formData = new FormData();
+            formData.append("stu_list", $("#file").get(0).files[0]);
+            formData.append("csrfmiddlewaretoken", "{{ csrf_token }}");
+            formData.append("paper_no", paper_no);
+            $.ajax({
+                type: "POST",
+                url: "{% url 'teacher:file' %}",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (callback) {
+                    if (callback.status == 'ok') {
+                        window.location.reload();
+                    } else {
+                        $("#errorFile").html(callback.msg);
+                    }
+                }
+            })
+        })
+    })
+</script>
+<script>
+    $(function () {
+        $('#myModal1').modal('hide')
+    });
+</script>
+<script>
+    $(function () {
+        $('#myModal1').on('hide.bs.modal', function () {
+            alert('取消创建');
+        })
+    });
+</script>
+{% block js %}
+
+{% endblock %}
+</html>

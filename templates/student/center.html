@@ -1,0 +1,121 @@
+{% extends 'student/base.html' %}
+
+{% block content %}
+    <div class="container" style="font-size: 15px">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-4 column">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    基本信息
+                                </h3>
+                            </div>
+                            <div class="panel-body" style="color: black">
+                                姓名：{{ stu.name }}
+                            </div>
+                            <div class="panel-body" style="color: black">
+                                学院：{{ stu.dept }}
+                            </div>
+                            <div class="panel-body" style="color: black">
+                                专业：{{ stu.major }}
+                            </div>
+                            <div class="panel-body" style="color: black">
+                                班级：{{ stu.cls }}
+                            </div>
+                            <div class="panel-body" style="color: black">
+                                <a href="{% url 'login:logout' %}">退出登录</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 column">
+                        <form class="form-horizontal" role="form" action="{% url 'student:center' %}" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">修改密码</label>
+                                <div class="col-sm-8">
+                                    <input type="password" class="form-control" id="inputPassword3" name="password"/>
+                                </div>
+                                <div class="col-sm-2">
+                                    <input type="button" class="btn btn-default" value="确定" id="changePwd" />
+                                </div>
+                            </div>
+                        </form>
+                        <span id="pwd"></span>
+                        <form class="form-horizontal" role="form">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-8">
+                                    <input type="email" class="form-control" id="inputEmail3"
+                                           value="{{ stu.email }}"/>
+                                </div>
+                                <div class="col-sm-2">
+                                    <input type="button" class="btn btn-default" value="更改" id="changeEmail" />
+                                </div>
+                            </div>
+                        </form>
+{#                        <form class="form-horizontal" role="form">#}
+{##}
+{#                            <div class="form-group">#}
+{#                                <label for="inputEmail3" class="col-sm-2 control-label">手机</label>#}
+{#                                <div class="col-sm-8">#}
+{#                                    <input type="text" class="form-control" id="inputEmail3"#}
+{#                                           placeholder="{{ stu.phone }}"/>#}
+{#                                </div>#}
+{#                                <div class="col-sm-2">#}
+{#                                    <button type="submit" class="btn btn-default">确定</button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </form>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block myjs %}
+<script>
+    $(function () {
+        $("#changePwd").click(function () {
+            let pwd = $("#inputPassword3").val();
+            $.ajax({
+                type: "POST",
+                url: "{% url 'student:center' %}",
+                data: {
+                    'password': pwd,
+                    'csrfmiddlewaretoken': "{{ csrf_token }}"
+                },
+                success:function (callback) {
+                    if(callback.status == 'ok'){
+                        alert('修改成功')
+                        window.location.reload()
+                    }else{
+                        $("#pwd").appendChild(callback.msg)
+
+                    }
+                }
+            })
+        })
+        $("#changeEmail").click(function() {
+            let email = $("#inputEmail3").val();
+            $.ajax({
+                type: "POST",
+                url: "{% url 'student:email' %}",
+                data: {
+                    'email': email,
+                    'csrfmiddlewaretoken': "{{ csrf_token }}"
+                },
+                success: function (callback) {
+                    if (callback.status == 'ok'){
+                        alert(callback.msg)
+                    }else{
+                        alert(callback.msg)
+                    }
+                }
+            })
+        })
+    })
+</script>
+{% endblock %}

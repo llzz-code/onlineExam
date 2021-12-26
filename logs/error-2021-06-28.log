@@ -1,0 +1,2 @@
+[2021-06-28 15:30:00,336] [adminx.py:40] [adminx:post] [ERROR]- 导入试题错误type object 'QuestionBank' has no attribute 'get_or_create'
+[2021-06-28 17:06:35,060] [adminx.py:40] [adminx:post] [ERROR]- 导入试题错误(1406, "Data too long for column 'answer' at row 1")
