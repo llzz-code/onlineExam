@@ -3,7 +3,7 @@
 ![Github Releases](https://img.shields.io/badge/Python-3.6-green) ![Github Releases](https://img.shields.io/badge/Django-2.0.1-green)
 
 :books:项目目录
-
+```text
 onlineExam
 ├─apps
 │  ├─login             登录模块
@@ -27,7 +27,7 @@ onlineExam
 ├─templates        模板目录
 │  ├─student       学生模板‘
 │  └─teacher       教师模板
-
+```
 :key: 导入excel的格式（打 * 号的为必填项）
 
 1、导入试题
